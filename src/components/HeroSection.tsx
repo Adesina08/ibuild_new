@@ -7,8 +7,7 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   const openDemo = () => {
     // fire event for header to open its modal
-    const event = new Event("open-demo-modal");
-    window.dispatchEvent(event);
+    window.dispatchEvent(new CustomEvent("open-demo-modal"));
   };
 
   return (
@@ -49,7 +48,7 @@ const HeroSection = () => {
                 size="lg"
                 className="group w-full sm:w-auto"
               >
-                <Link to="/plans">
+                <Link to="/plans" aria-label="Start Building with iBUILD Today" className="flex items-center">
                   <Rocket className="h-5 w-5 mr-2 group-hover:translate-x-1 transition-transform" />
                   Start Building with iBUILD Today
                 </Link>

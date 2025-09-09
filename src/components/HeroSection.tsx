@@ -67,8 +67,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Background Pattern */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+      {/* Background Pattern - allow interactions through */}
+      <div className="pointer-events-none absolute inset-0 bg-grid-pattern opacity-5"></div>
     </section>
   );
 };

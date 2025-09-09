@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm opacity-80">© 2023 Ibuild. All rights reserved</p>
+          <p className="text-sm opacity-80">© 2025 Ibuild. All rights reserved</p>
           <div className="flex items-center gap-6">
             <a href="#terms" className="text-sm opacity-80 hover:text-white">Terms</a>
             <a href="#privacy" className="text-sm opacity-80 hover:text-white">Privacy</a>

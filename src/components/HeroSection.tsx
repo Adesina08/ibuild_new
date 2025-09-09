@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   const openDemo = () => {
     // fire event for header to open its modal
-    // @ts-ignore custom event
-    window.dispatchEvent(new Event('open-demo-modal') as any);
+    const event = new Event("open-demo-modal");
+    window.dispatchEvent(event);
   };
 
   return (
@@ -34,11 +34,21 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="ibuild-outline" size="lg" className="group" onClick={openDemo}>
+              <Button
+                variant="ibuild-outline"
+                size="lg"
+                className="group w-full sm:w-auto"
+                onClick={openDemo}
+              >
                 <Phone className="h-5 w-5 mr-2 group-hover:rotate-12 transition-transform" />
                 Schedule a Demo
               </Button>
-              <Button asChild variant="ibuild-primary" size="lg" className="group">
+              <Button
+                asChild
+                variant="ibuild-primary"
+                size="lg"
+                className="group w-full sm:w-auto"
+              >
                 <Link to="/plans">
                   <Rocket className="h-5 w-5 mr-2 group-hover:translate-x-1 transition-transform" />
                   Start Building with iBUILD Today

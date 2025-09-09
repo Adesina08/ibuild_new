@@ -63,19 +63,18 @@ export const DemoModal = ({ isOpen, onClose }: DemoModalProps) => {
   };
 
   return (
-    <div className="fixed inset-0 z-[100]">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6">
       {/* Backdrop */}
       <div className="absolute inset-0 bg-black/60" onClick={onClose} />
 
       {/* Centered dialog */}
-      <div className="absolute inset-0 flex items-center justify-center p-4 sm:p-6">
-        <div
-          ref={panelRef}
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="demoModalTitle"
-          className="w-full max-w-4xl rounded-2xl bg-white text-gray-900 shadow-2xl overflow-hidden"
-        >
+      <div
+        ref={panelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="demoModalTitle"
+        className="relative w-full max-w-4xl rounded-2xl bg-white text-gray-900 shadow-2xl overflow-hidden"
+      >
           {/* Header */}
           <div className="px-6 py-5 border-b bg-gray-50 flex items-center justify-between">
             <h3 id="demoModalTitle" className="text-lg sm:text-xl font-semibold">Send your demo request !</h3>
@@ -141,7 +140,6 @@ export const DemoModal = ({ isOpen, onClose }: DemoModalProps) => {
             )}
           </div>
         </div>
-      </div>
     </div>
   );
 };

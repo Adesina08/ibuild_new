@@ -11,11 +11,15 @@ import { DemoModal } from "@/components/layout/DemoModal";
 const Header = () => {
   useEffect(() => {
     const handler = () => setIsDemoOpen(true);
-    // @ts-ignore - Custom event from other components
-    window.addEventListener('open-demo-modal', handler as any);
+    window.addEventListener(
+      "open-demo-modal",
+      handler as EventListener,
+    );
     return () => {
-      // @ts-ignore
-      window.removeEventListener('open-demo-modal', handler as any);
+      window.removeEventListener(
+        "open-demo-modal",
+        handler as EventListener,
+      );
     };
   }, []);
 

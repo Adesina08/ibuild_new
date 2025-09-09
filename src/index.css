@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* iBuild Construction Website Design System */
+
+@layer base {
+  :root {
+    /* Light mode colors */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+
+    /* iBuild brand colors */
+    --ibuild-red: 0 72% 55%;
+    --ibuild-red-hover: 0 72% 45%;
+    --ibuild-dark: 220 26% 14%;
+    --ibuild-darker: 220 39% 11%;
+    --ibuild-gray: 215 16% 47%;
+    --ibuild-light-gray: 210 20% 92%;
+
+    /* iBuild gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220, 26%, 14%), hsl(220, 39%, 11%));
+    --gradient-card: linear-gradient(145deg, hsl(220, 26%, 16%), hsl(220, 39%, 13%));
+    --gradient-accent: linear-gradient(90deg, hsl(0, 72%, 55%), hsl(15, 85%, 60%));
+
+    /* Animation variables */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* Shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(220 26% 14% / 0.1), 0 2px 4px -1px hsl(220 26% 14% / 0.06);
+    --shadow-medium: 0 10px 15px -3px hsl(220 26% 14% / 0.1), 0 4px 6px -2px hsl(220 26% 14% / 0.05);
+    --shadow-large: 0 20px 25px -5px hsl(220 26% 14% / 0.1), 0 10px 10px -5px hsl(220 26% 14% / 0.04);
+    --shadow-red: 0 10px 30px -10px hsl(0 72% 55% / 0.3);
+  }
+
+  .dark {
+    /* Dark mode colors - matching original iBuild design */
+    --background: 220 26% 14%;
+    --foreground: 210 40% 98%;
+    --card: 220 39% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 39% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 220 26% 14%;
+    --secondary: 220 26% 18%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 26% 18%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 220 26% 18%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 26% 18%;
+    --input: 220 26% 18%;
+    --ring: 0 72% 55%;
+
+    /* Dark mode shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(220 39% 11% / 0.3), 0 2px 4px -1px hsl(220 39% 11% / 0.2);
+    --shadow-medium: 0 10px 15px -3px hsl(220 39% 11% / 0.3), 0 4px 6px -2px hsl(220 39% 11% / 0.2);
+    --shadow-large: 0 20px 25px -5px hsl(220 39% 11% / 0.3), 0 10px 10px -5px hsl(220 39% 11% / 0.2);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Grid pattern background */
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}

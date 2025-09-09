@@ -1,6 +1,7 @@
 
 import AppLayout from "@/components/layout/AppLayout";
 import { Mail, Phone, Clock } from "lucide-react";
+import supportAgent from "@/assets/support-agent.png";
 
 export default function Support() {
   return (
@@ -17,7 +18,7 @@ export default function Support() {
           <div className="relative">
             <div className="absolute -right-16 -top-16 w-[420px] h-[420px] rounded-3xl rotate-12 bg-[#ffd9d4] opacity-70" />
             <img
-              src="https://delightful-river-072896f0f.1.azurestaticapps.net/images/support-hero.jpg"
+              src={supportAgent}
               alt="Support agent"
               className="relative rounded-xl shadow-xl border border-border/50 w-full object-cover"
             />

@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   const openDemo = () => {
     // fire event for header to open its modal
-    // @ts-ignore custom event
-    window.dispatchEvent(new Event('open-demo-modal') as any);
+    const event = new Event("open-demo-modal");
+    window.dispatchEvent(event);
   };
 
   return (

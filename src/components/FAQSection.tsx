@@ -41,23 +41,21 @@ const FAQSection = () => {
             </p>
           </div>
 
-            <Accordion type="single" collapsible className="space-y-4">
-              {faqs.map((faq, index) => (
-                <AccordionItem 
-                  key={index} 
-                  value={`item-${index}`}
-                  className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg px-6 data-[state=open]:shadow-medium transition-all duration-300"
-                >
-                  <AccordionTrigger className="text-left hover:text-ibuild-red transition-colors hover:no-underline py-6 [&[data-state=open]>svg]:rotate-180">
-                    <span className="text-lg font-semibold">{faq.question}</span>
-                  </AccordionTrigger>
-                  <AccordionContent className="pb-6">
-                    <p className="text-muted-foreground text-base leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
+          <Accordion type="single" collapsible className="space-y-4">
+            {faqs.map((faq, index) => (
+              <AccordionItem
+                key={index}
+                value={`item-${index}`}
+                className="rounded-lg border border-gray-200 bg-gray-50 px-6 dark:border-gray-700 dark:bg-gray-800 data-[state=open]:shadow-md"
+              >
+                <AccordionTrigger className="text-left py-5 text-lg font-semibold text-gray-900 transition-colors hover:no-underline dark:text-gray-100 [&[data-state=open]>svg]:rotate-180">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="pb-5 text-base leading-relaxed text-gray-700 dark:text-gray-300">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
           </Accordion>
         </div>
       </div>

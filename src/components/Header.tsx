@@ -58,9 +58,17 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border/50">
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
         {/* Logo (clickable) */}
-        <Link to="/" className="flex items-center">
-          <img src={logoLight} alt="iBUILD Applications" className="h-9 w-auto block dark:hidden" />
-          <img src={logoDark} alt="iBUILD Applications" className="h-9 w-auto hidden dark:block" />
+        <Link to="/" className="flex h-full items-center">
+          <img
+            src={logoLight}
+            alt="iBUILD Applications"
+            className="block h-8 w-auto sm:h-9 md:h-10 lg:h-12 dark:hidden"
+          />
+          <img
+            src={logoDark}
+            alt="iBUILD Applications"
+            className="hidden h-8 w-auto sm:h-9 md:h-10 lg:h-12 dark:block"
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -151,7 +159,11 @@ const Header = () => {
         <div className="flex md:hidden items-center space-x-2">
           <ThemeToggle />
           <Button variant="ghost" size="icon" onClick={toggleMenu}>
-            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {isMenuOpen ? (
+              <X className="h-5 w-5 sm:h-6 sm:w-6" />
+            ) : (
+              <Menu className="h-5 w-5 sm:h-6 sm:w-6" />
+            )}
           </Button>
         </div>
       </div>

@@ -139,7 +139,7 @@ const Header = () => {
             <Link to="/contact">Contact</Link>
           </Button>
           <Button variant="ibuild-nav" asChild>
-            <a href="/https://ibuildmfs.com/">Log In</a>
+            <a href="https://ibuildmfs.com/">Log In</a>
           </Button>
         </nav>
 

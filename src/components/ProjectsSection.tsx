@@ -16,6 +16,8 @@ import projectImg9 from "@/assets/projects/project-9.webp";
 import projectImg10 from "@/assets/projects/project-10.webp";
 import projectImg11 from "@/assets/projects/project-11.webp";
 import projectImg12 from "@/assets/projects/project-12.webp";
+import projectImg13 from "@/assets/projects/project-13.webp";
+import projectImg15 from "@/assets/projects/project-15.webp";
 
 function useAutoplay(api?: CarouselApi) {
   useEffect(() => {

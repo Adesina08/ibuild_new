@@ -45,7 +45,12 @@ export const Footer = () => {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="d-flex align-items-center mb-3 mb-md-0">
-              <img src={IMAGES.logo} alt="iBUILD" height="30" className="me-3" />
+              <img
+                src={IMAGES.logo}
+                alt="iBUILD"
+                className="me-3 img-fluid"
+                style={{ maxHeight: '60px', width: 'auto' }}
+              />
               <div className="d-flex gap-3">
                 <a href="#" className="text-light">
                   <img src={IMAGES.facebook} alt="Facebook" width="24" height="24" />

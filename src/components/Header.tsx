@@ -182,7 +182,7 @@ const Header = () => {
             ))}
             <div className="pt-2">
               <Button variant="ibuild-primary" size="sm" className="w-full" onClick={() => setIsDemoOpen(true)}>
-                Book a Demo
+                Book an appointment
               </Button>
             </div>
           </nav>

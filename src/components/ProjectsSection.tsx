@@ -86,7 +86,7 @@ const ProjectsSection = () => {
             Our Projects
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Clients Projects<span className="text-ibuild-red">Recently Completed With iBUILD</span>
+            Clients Projects<span className="text-ibuild-red"> Recently Completed With iBUILD</span>
           </h2>
         </div>
 

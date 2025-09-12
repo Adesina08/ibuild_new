@@ -6,6 +6,8 @@ import {
   Smile,
   X,
 } from "lucide-react";
+import logoDark from "@/assets/ibuild-logo-dark.png";
+import logoLight from "@/assets/ibuild-logo-light.png";
 
 interface Message {
   id: number;
@@ -47,7 +49,19 @@ const ChatButton = () => {
       {open && (
         <div className="fixed bottom-20 right-4 sm:bottom-24 sm:right-6 md:bottom-28 md:right-8 z-50 w-80 sm:w-96 bg-white dark:bg-ibuild-dark border-2 border-ibuild-red rounded-lg shadow-soft flex flex-col">
           <div className="flex items-center justify-between bg-ibuild-red text-white px-4 py-2 rounded-t-lg">
-            <span>iBUILD Online Chat</span>
+            <div className="flex items-center gap-2">
+              <img
+                src={logoLight}
+                alt="iBUILD Applications"
+                className="h-6 w-auto dark:hidden"
+              />
+              <img
+                src={logoDark}
+                alt="iBUILD Applications"
+                className="hidden h-6 w-auto dark:block"
+              />
+              <span>iBUILD Online Chat</span>
+            </div>
             <button
               onClick={() => setOpen(false)}
               aria-label="Close chat"

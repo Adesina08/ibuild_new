@@ -1,8 +1,9 @@
-aimport { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { TrendingUp, Settings, DollarSign, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import constructionDashboard from "@/assets/construction-dashboard.png";
+import ExperienceSign from "@/components/ExperienceSign";
 
 const FeaturesSection = () => {
   const openDemo = () => {
@@ -81,13 +82,7 @@ const FeaturesSection = () => {
             </div>
 
             {/* Experience Badge */}
-            <div className="inline-flex items-center gap-3 bg-gradient-card rounded-2xl p-4 border border-border/50">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-ibuild-red">35+</div>
-                <div className="text-xs text-muted-foreground font-medium">years</div>
-              </div>
-              <div className="text-sm font-medium text-foreground">Industry Experience</div>
-            </div>
+            <ExperienceSign />
           </div>
 
           {/* Right Content - Dashboard Image */}

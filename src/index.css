@@ -37,8 +37,16 @@
     --ibuild-light-gray: 210 20% 92%;
 
     /* iBuild gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(220, 26%, 14%), hsl(220, 39%, 11%));
-    --gradient-card: linear-gradient(145deg, hsl(220, 26%, 16%), hsl(220, 39%, 13%));
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(var(--background)),
+      hsl(var(--ibuild-light-gray))
+    );
+    --gradient-card: linear-gradient(
+      145deg,
+      hsl(var(--card)),
+      hsl(var(--ibuild-light-gray))
+    );
     --gradient-accent: linear-gradient(90deg, hsl(0, 72%, 55%), hsl(15, 85%, 60%));
 
     /* Animation variables */
@@ -78,6 +86,17 @@
     --shadow-soft: 0 4px 6px -1px hsl(220 39% 11% / 0.3), 0 2px 4px -1px hsl(220 39% 11% / 0.2);
     --shadow-medium: 0 10px 15px -3px hsl(220 39% 11% / 0.3), 0 4px 6px -2px hsl(220 39% 11% / 0.2);
     --shadow-large: 0 20px 25px -5px hsl(220 39% 11% / 0.3), 0 10px 10px -5px hsl(220 39% 11% / 0.2);
+    /* Dark mode gradients */
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(var(--ibuild-dark)),
+      hsl(var(--ibuild-darker))
+    );
+    --gradient-card: linear-gradient(
+      145deg,
+      hsl(var(--ibuild-dark)),
+      hsl(var(--ibuild-darker))
+    );
   }
 }
 

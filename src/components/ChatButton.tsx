@@ -60,7 +60,19 @@ const ChatButton = () => {
                 alt="iBUILD Applications"
                 className="hidden h-6 w-auto dark:block"
               />
+            <div className="flex items-center gap-2">
+              <img
+                src={logoLight}
+                alt="iBUILD Applications"
+                className="h-8 w-auto sm:h-10 dark:hidden"
+              />
+              <img
+                src={logoDark}
+                alt="iBUILD Applications"
+                className="hidden h-8 w-auto sm:h-10 dark:block"
+              />
               <span>iBUILD Online Chat</span>
+            </div>
             </div>
             <button
               onClick={() => setOpen(false)}

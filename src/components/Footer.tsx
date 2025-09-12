@@ -32,7 +32,6 @@ const Footer = () => {
           <div>
             <h5 className="text-lg font-semibold mb-4 opacity-90">Product</h5>
             <ul className="space-y-3 text-sm opacity-90">
-              <li><a href="#solutions" className="hover:text-ibuild-red">Solutions</a></li>
               <li><a href="/plans" className="hover:text-ibuild-red">Plan & Pricing</a></li>
               <li><a href="/tools" className="hover:text-ibuild-red">Modules</a></li>
               <li><a href="#communication" className="hover:text-ibuild-red">Communication Features</a></li>
@@ -45,8 +44,6 @@ const Footer = () => {
             <ul className="space-y-3 text-sm opacity-90">
               <li><a href="#docs" className="hover:text-ibuild-red">Documentation</a></li>
               <li><a href="/support" className="hover:text-ibuild-red">Customer Support</a></li>
-              <li><a href="#tutorials" className="hover:text-ibuild-red">Tutorials</a></li>
-              <li><a href="#training" className="hover:text-ibuild-red">Training</a></li>
             </ul>
           </div>
 

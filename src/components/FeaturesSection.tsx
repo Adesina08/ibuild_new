@@ -93,7 +93,7 @@ const FeaturesSection = () => {
               />
             </Card>
 
-            <div className="absolute -top-20 left-1/2 -translate-x-1/2">
+            <div className="absolute -top-52 left-1/2 -translate-x-1/2">
               <ExperienceSign className="h-48 w-64" />
             </div>
 

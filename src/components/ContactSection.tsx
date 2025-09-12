@@ -82,7 +82,7 @@ const ContactSection = () => {
                     <label htmlFor="firstName" className="text-sm font-medium text-foreground">
                       First Name
                     </label>
-                    <Input id="firstName" placeholder="First" />
+                    <Input id="firstName" placeholder="First Name" />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="lastName" className="text-sm font-medium text-foreground">

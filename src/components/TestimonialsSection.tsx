@@ -18,7 +18,7 @@ const TestimonialsSection = () => {
     {
       quote: "The iBUILD team was responsive and patient. The platform is intuitive, affordable, and now embraced across all departments at Avalon.",
       author: "Chris Williams",
-      position: "VP Operations, Avalon Master Builder",
+      position: "President, Avalon Master Builder",
       avatar: "/placeholder.svg",
       initials: "CW"
     },

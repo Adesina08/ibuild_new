@@ -51,9 +51,10 @@ const ProjectsSection = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 text-ibuild-red font-semibold">
             <div className="w-8 h-px bg-ibuild-red"></div>
-            Our Projects
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6"><span className="text-ibuild-red">Our Projects</span></h2>
           </div>
         </div>
+        
         <div
           id="residential"
           className="grid gap-10 md:grid-cols-2 md:items-center scroll-mt-24"

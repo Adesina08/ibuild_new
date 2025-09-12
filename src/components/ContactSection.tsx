@@ -14,7 +14,7 @@ const ContactSection = () => {
             Contact
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Let's<span className="text-ibuild-red">Build Together</span>
+            Let's<span className="text-ibuild-red"> Build Together</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Have questions about iBUILD or want a personalized demo?

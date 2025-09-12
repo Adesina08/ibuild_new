@@ -44,7 +44,7 @@ const ChatButton = () => {
       {open && (
         <div className="fixed bottom-20 right-4 sm:bottom-24 sm:right-6 md:bottom-28 md:right-8 z-50 w-80 sm:w-96 bg-white border-2 border-ibuild-red rounded-lg shadow-soft flex flex-col">
           <div className="flex items-center justify-between bg-ibuild-red text-white px-4 py-2 rounded-t-lg">
-            <span>Multi-Family and Residential Platform</span>
+            <span>iBUILD Online Chat</span>
             <button
               onClick={() => setOpen(false)}
               aria-label="Close chat"

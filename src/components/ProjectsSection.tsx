@@ -1,9 +1,9 @@
+import { useEffect, useState } from "react";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 
 import projectImg1 from "@/assets/projects/project-1.webp";
@@ -17,6 +17,14 @@ import projectImg10 from "@/assets/projects/project-10.webp";
 import projectImg11 from "@/assets/projects/project-11.webp";
 import projectImg12 from "@/assets/projects/project-12.webp";
 
+function useAutoplay(api?: CarouselApi) {
+  useEffect(() => {
+    if (!api) return;
+    const interval = setInterval(() => api.scrollNext(), 2000);
+    return () => clearInterval(interval);
+  }, [api]);
+}
+
 const ProjectsSection = () => {
   const residentialImages = [projectImg6, projectImg8];
   const multiFamilyImages = [
@@ -29,12 +37,20 @@ const ProjectsSection = () => {
   ];
   const landDevelopmentImages = [projectImg4, projectImg5];
 
+  const [residentialApi, setResidentialApi] = useState<CarouselApi>();
+  const [multiFamilyApi, setMultiFamilyApi] = useState<CarouselApi>();
+  const [landDevApi, setLandDevApi] = useState<CarouselApi>();
+
+  useAutoplay(residentialApi);
+  useAutoplay(multiFamilyApi);
+  useAutoplay(landDevApi);
+
   return (
     <section className="py-24 bg-background">
-      <div className="container max-w-screen-2xl space-y-24">
+      <div className="container max-w-screen-2xl space-y-32">
         <div
           id="residential"
-          className="grid gap-10 md:grid-cols-2 md:items-center"
+          className="grid gap-10 md:grid-cols-2 md:items-center scroll-mt-24"
         >
           <div>
             <h2 className="text-4xl font-bold mb-6 text-foreground">
@@ -77,7 +93,11 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div>
-            <Carousel opts={{ loop: true }} className="w-full">
+            <Carousel
+              opts={{ loop: true }}
+              setApi={setResidentialApi}
+              className="w-full"
+            >
               <CarouselContent>
                 {residentialImages.map((image, idx) => (
                   <CarouselItem key={idx}>
@@ -89,15 +109,13 @@ const ProjectsSection = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
             </Carousel>
           </div>
         </div>
 
         <div
           id="multi-family"
-          className="grid gap-10 md:grid-cols-2 md:items-center"
+          className="grid gap-10 md:grid-cols-2 md:items-center scroll-mt-24"
         >
           <div>
             <h2 className="text-4xl font-bold mb-6 text-foreground">
@@ -145,7 +163,11 @@ const ProjectsSection = () => {
             </div>
           </div>
           <div>
-            <Carousel opts={{ loop: true }} className="w-full">
+            <Carousel
+              opts={{ loop: true }}
+              setApi={setMultiFamilyApi}
+              className="w-full"
+            >
               <CarouselContent>
                 {multiFamilyImages.map((image, idx) => (
                   <CarouselItem key={idx}>
@@ -157,15 +179,13 @@ const ProjectsSection = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
             </Carousel>
           </div>
         </div>
 
         <div
           id="land-development"
-          className="grid gap-10 md:grid-cols-2 md:items-center"
+          className="grid gap-10 md:grid-cols-2 md:items-center scroll-mt-24"
         >
           <div>
             <h2 className="text-4xl font-bold mb-6 text-foreground">
@@ -233,7 +253,11 @@ const ProjectsSection = () => {
             </ul>
           </div>
           <div>
-            <Carousel opts={{ loop: true }} className="w-full">
+            <Carousel
+              opts={{ loop: true }}
+              setApi={setLandDevApi}
+              className="w-full"
+            >
               <CarouselContent>
                 {landDevelopmentImages.map((image, idx) => (
                   <CarouselItem key={idx}>
@@ -245,8 +269,6 @@ const ProjectsSection = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
             </Carousel>
           </div>
         </div>

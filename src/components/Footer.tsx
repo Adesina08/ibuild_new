@@ -30,7 +30,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm opacity-90">
               <li><a href="#solutions" className="hover:text-ibuild-red">Solutions</a></li>
               <li><a href="/plans" className="hover:text-ibuild-red">Plan & Pricing</a></li>
-              <li><a href="#modules" className="hover:text-ibuild-red">Modules</a></li>
+              <li><a href="/tools" className="hover:text-ibuild-red">Modules</a></li>
               <li><a href="#communication" className="hover:text-ibuild-red">Communication Features</a></li>
             </ul>
           </div>

@@ -32,47 +32,44 @@ const FAQSection = () => {
 
   return (
     <section className="py-24 bg-gray-50 dark:bg-background">
-      <div className="max-w-4xl mx-auto md:mx-0">
-        <div className="mb-16 text-center md:text-left">
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Frequently Asked Questions
-          </h2>
-            <p className="text-xl text-muted-foreground">
-              Everything you need to know about iBUILD's subscription, setup,
-              support, and customization options.
-            </p>
-        </div>
       <div className="container max-w-screen-2xl">
-        <div className="grid items-center gap-8 md:grid-cols-[auto,2fr]">
-          <div className="hidden md:block">
+        <div className="grid gap-12 md:grid-cols-2 items-start">
+          <div className="flex flex-col justify-between">
+            <div className="mb-10">
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-xl text-muted-foreground">
+                Everything you need to know about iBUILD's subscription, setup,
+                support, and customization options.
+              </p>
+            </div>
             <img
               src={faqArrow}
               alt=""
-              className="pointer-events-none select-none w-full max-w-50"
+              className="mt-4 w-32 md:w-40 lg:w-48 pointer-events-none select-none"
             />
           </div>
 
-            <Accordion.Root type="single" collapsible className="space-y-3">
-              {faqs.map((faq, index) => (
-                <Accordion.Item
-                  key={index}
-                  value={`item-${index}`}
-                  className="overflow-hidden rounded-lg border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800 transition-colors duration-300 data-[state=open]:bg-gray-100 dark:data-[state=open]:bg-gray-700"
-                >
-                  <Accordion.Header>
-                    <Accordion.Trigger className="group flex w-full items-center justify-between px-6 py-5 text-left text-lg font-semibold text-gray-900 transition-colors duration-300 hover:no-underline dark:text-gray-100 data-[state=open]:text-blue-600 dark:data-[state=open]:text-blue-400">
-                      {faq.question}
-                      <ChevronRight className="h-5 w-5 text-gray-500 transition-transform group-data-[state=open]:rotate-90" />
-                    </Accordion.Trigger>
-                  </Accordion.Header>
-                  <Accordion.Content className="px-6 pb-5 text-base leading-relaxed text-gray-700 dark:text-gray-300 overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down">
-                    {faq.answer}
-                  </Accordion.Content>
-                </Accordion.Item>
-              ))}
-            </Accordion.Root>
-
-          </div>
+          <Accordion.Root type="single" collapsible className="space-y-3">
+            {faqs.map((faq, index) => (
+              <Accordion.Item
+                key={index}
+                value={`item-${index}`}
+                className="overflow-hidden rounded-lg border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800 transition-colors duration-300 data-[state=open]:bg-gray-100 dark:data-[state=open]:bg-gray-700"
+              >
+                <Accordion.Header>
+                  <Accordion.Trigger className="group flex w-full items-center justify-between px-6 py-5 text-left text-lg font-semibold text-gray-900 transition-colors duration-300 hover:no-underline dark:text-gray-100 data-[state=open]:text-ibuild-red">
+                    {faq.question}
+                    <ChevronRight className="h-5 w-5 text-gray-500 transition-transform group-data-[state=open]:rotate-90" />
+                  </Accordion.Trigger>
+                </Accordion.Header>
+                <Accordion.Content className="px-6 pb-5 text-base leading-relaxed text-gray-700 dark:text-gray-300 overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down">
+                  {faq.answer}
+                </Accordion.Content>
+              </Accordion.Item>
+            ))}
+          </Accordion.Root>
         </div>
       </div>
     </section>

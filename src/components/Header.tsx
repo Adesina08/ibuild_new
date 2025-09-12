@@ -99,22 +99,22 @@ const Header = () => {
                   <div>
                     <h4 className="font-semibold mb-3">Modules</h4>
                     <ul className="space-y-2 text-sm">
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#accounting" className="hover:text-ibuild-red">Accounting Integration</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#construction" className="hover:text-ibuild-red">Construction</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#design" className="hover:text-ibuild-red">Design</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#estimating" className="hover:text-ibuild-red">Estimation/Purchasing</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#file-manager" className="hover:text-ibuild-red">File Manager</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#pricebook" className="hover:text-ibuild-red">Pricebook</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">Accounting Integration</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">Construction</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">Design</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">Estimation/Purchasing</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">File Manager</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">Pricebook</a></li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-3 opacity-0">Modules</h4>
                     <ul className="space-y-2 text-sm">
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#project-pro-forma" className="hover:text-ibuild-red">Project Pro-Forma</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#sales" className="hover:text-ibuild-red">Sales</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#system-reports" className="hover:text-ibuild-red">System Reports</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#system-views" className="hover:text-ibuild-red">System Views</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="#warranty" className="hover:text-ibuild-red">Warranty</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">Project Pro-Forma</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">Sales</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">System Reports</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">System Views</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/tools" className="hover:text-ibuild-red">Warranty</a></li>
                     </ul>
                   </div>
                 </div>

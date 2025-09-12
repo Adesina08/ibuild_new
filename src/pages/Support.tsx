@@ -12,7 +12,34 @@ export default function Support() {
           <div>
             <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">Customer Support</h1>
             <p className="text-muted-foreground mt-3 max-w-xl">
-              iBUILD has an extensive library of documentation and video tutorials to help our customers.
+              We’re here to make sure you get the most out of iBUILD.
+            </p>
+            <p className="text-muted-foreground mt-3 max-w-xl">
+              At iBUILD, we believe great construction doesn’t just come from solid foundations and
+              quality materials — it also comes from strong support. Whether you are a project manager
+              coordinating multiple sites, a contractor tracking expenses, or a client reviewing progress
+              reports, our dedicated support team is here to make sure you never feel stuck.
+            </p>
+            <p className="text-muted-foreground mt-3 max-w-xl">
+              We understand the unique challenges in construction: tight deadlines, budget constraints,
+              safety standards, and the need for seamless collaboration across teams. That’s why our
+              support goes beyond simply answering questions. We aim to:
+            </p>
+            <ul className="list-disc pl-4 mt-3 space-y-2 text-muted-foreground max-w-xl">
+              <li>Solve problems quickly so your projects don’t experience costly delays.</li>
+              <li>
+                Provide clear step-by-step guidance so every team member, regardless of technical
+                skill, can use our tools confidently.
+              </li>
+              <li>
+                Offer proactive advice on best practices, compliance, and workflow improvements.
+              </li>
+              <li>Be available when you need us, through live chat, email, or scheduled calls.</li>
+            </ul>
+            <p className="text-muted-foreground mt-3 max-w-xl">
+              Our goal is simple: to help you build without roadblocks. From the very first time you log
+              in to iBUILD to the successful completion of your projects, we’re by your side with
+              answers, resources, and real humans ready to assist.
             </p>
           </div>
           <div className="relative">
@@ -31,15 +58,41 @@ export default function Support() {
         <div className="container max-w-screen-2xl px-4 pb-14">
           <h2 className="text-xl font-semibold mb-3">Documentation Library</h2>
           <p className="text-sm text-muted-foreground leading-6">
-            A thorough knowledge base with step-by-step guides, videos and answers for common workflows.
-            Because space and place affect a variety of topics, our library spans estimating, scheduling,
-            accounting integrations, project management and communications.
+            Our Documentation Library is designed to give construction professionals everything they
+            need in one place. Whether you’re managing large projects or handling day-to-day site tasks,
+            you’ll find practical, easy-to-follow resources to guide you.
           </p>
 
-          <h3 className="text-lg font-semibold mt-8">Learn how easy it is to excel online</h3>
-          <p className="text-sm text-muted-foreground leading-6">
-            Watch quick tutorials and explore best practices to get your team productive fast.
-            Our content is created by builders, for builders.
+          <p className="text-sm text-muted-foreground leading-6 mt-4">Here’s what you’ll discover:</p>
+          <ul className="mt-4 space-y-2 text-sm text-muted-foreground leading-6">
+            <li>
+              📘 Getting Started Guides – Step-by-step instructions to set up your iBUILD account,
+              onboard your team, and start managing projects in minutes.
+            </li>
+            <li>
+              🎥 Video Tutorials – Short, practical videos covering core features like creating projects,
+              assigning tasks, tracking budgets, and generating reports.
+            </li>
+            <li>
+              🏗️ Construction Best Practices – Safety checklists, quality control workflows, and
+              compliance guidelines to keep your projects on track.
+            </li>
+            <li>
+              📂 Templates &amp; Forms – Ready-made site diaries, inspection forms, progress report
+              formats, and budgeting sheets.
+            </li>
+            <li>
+              🔧 Troubleshooting Articles – Quick fixes for common issues, with clear instructions and
+              screenshots.
+            </li>
+            <li>
+              🔒 Regulations &amp; Compliance – Resources to help you align with industry standards, safety
+              codes, and reporting requirements.
+            </li>
+          </ul>
+          <p className="text-sm text-muted-foreground leading-6 mt-4">
+            Our library is constantly updated with real use cases and field-tested solutions, so you’ll
+            always have the right information at your fingertips.
           </p>
         </div>
       </section>

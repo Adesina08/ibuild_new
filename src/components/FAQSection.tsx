@@ -32,25 +32,25 @@ const FAQSection = () => {
 
   return (
     <section className="py-24 bg-gray-50 dark:bg-background">
+      <div className="max-w-4xl mx-auto md:mx-0">
+        <div className="mb-16 text-center md:text-left">
+          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+              Frequently Asked Questions
+          </h2>
+            <p className="text-xl text-muted-foreground">
+              Everything you need to know about iBUILD's subscription, setup,
+              support, and customization options.
+            </p>
+        </div>
       <div className="container max-w-screen-2xl">
         <div className="grid items-center gap-8 md:grid-cols-[auto,2fr]">
           <div className="hidden md:block">
             <img
               src={faqArrow}
               alt=""
-              className="pointer-events-none select-none w-full max-w-xl mx-auto"
+              className="pointer-events-none select-none w-full max-w-50"
             />
           </div>
-          <div className="max-w-4xl mx-auto md:mx-0">
-            <div className="mb-16 text-center md:text-left">
-              <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                Frequently Asked Questions
-              </h2>
-              <p className="text-xl text-muted-foreground">
-                Everything you need to know about iBUILD's subscription, setup,
-                support, and customization options.
-              </p>
-            </div>
 
             <Accordion.Root type="single" collapsible className="space-y-3">
               {faqs.map((faq, index) => (

@@ -48,6 +48,7 @@ const Header = () => {
 
   const navItems = [
     { name: "Products", href: "#products" },
+    { name: "Tools", href: "/tools" },
     { name: "Plans & Pricing", href: "/plans" },
     { name: "Support", href: "/support" },
     { name: "Contact", href: "#contact" },
@@ -121,6 +122,9 @@ const Header = () => {
             )}
           </div>
 
+          <Button variant="ibuild-nav" asChild>
+            <Link to="/tools">Tools</Link>
+          </Button>
           <Button variant="ibuild-nav" asChild>
             <Link to="/plans">Plans & Pricing</Link>
           </Button>

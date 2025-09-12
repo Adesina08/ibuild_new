@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import Plans from "./pages/Plans";
 import Support from "./pages/Support";
 import ChatButton from "@/components/ChatButton";
+import Tools from "./pages/Tools";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/tools" element={<Tools />} />
             <Route path="/plans" element={<Plans />} />
             <Route path="/support" element={<Support />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

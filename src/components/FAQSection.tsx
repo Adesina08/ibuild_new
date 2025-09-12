@@ -33,7 +33,7 @@ const FAQSection = () => {
   return (
     <section className="py-24 bg-gray-50 dark:bg-background">
       <div className="container max-w-screen-2xl">
-        <div className="grid items-center gap-8 md:grid-cols-[1fr,2fr]">
+        <div className="grid items-center gap-8 md:grid-cols-[auto,2fr]">
           <div className="hidden md:block">
             <img
               src={faqArrow}

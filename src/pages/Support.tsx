@@ -107,7 +107,7 @@ export default function Support() {
               <iframe
                 title="map"
                 className="w-full h-[320px]"
-                src="https://www.google.com/maps?q=Calgary,Canada&output=embed"
+                src="https://www.google.com/maps?q=London,UK&output=embed"
                 loading="lazy"
               />
             </div>

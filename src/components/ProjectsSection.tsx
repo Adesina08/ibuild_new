@@ -48,6 +48,12 @@ const ProjectsSection = () => {
   return (
     <section className="py-24 bg-background">
       <div className="container max-w-screen-2xl space-y-32">
+        <div className="text-center mb-16">
+          <div className="inline-flex items-center gap-2 text-ibuild-red font-semibold">
+            <div className="w-8 h-px bg-ibuild-red"></div>
+            Our Projects
+          </div>
+        </div>
         <div
           id="residential"
           className="grid gap-10 md:grid-cols-2 md:items-center scroll-mt-24"

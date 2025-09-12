@@ -112,7 +112,7 @@ export default function Support() {
               />
             </div>
           </div>
-          <div className="space-y-6 lg:mt-16"">
+          <div className="space-y-6 lg:mt-18"">
             <div className="flex items-start gap-3">
               <div className="mt-1 rounded-full p-2 bg-rose-100 text-rose-600 dark:bg-rose-900/30 dark:text-rose-300">
                 <Clock className="w-4 h-4" />

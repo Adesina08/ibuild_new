@@ -1,6 +1,6 @@
 import * as Accordion from "@radix-ui/react-accordion";
 import { ChevronRight } from "lucide-react";
-import faqArrow from "@/assets/faq-arrow.svg";
+import faqArrow from "@/assets/faq_image_no_bg.png";
 
 const FAQSection = () => {
   const faqs = [
@@ -35,7 +35,7 @@ const FAQSection = () => {
       <img
         src={faqArrow}
         alt=""
-        className="pointer-events-none select-none hidden md:block absolute left-0 top-1/2 w-40 -translate-x-1/2 -translate-y-1/2"
+        className="pointer-events-none select-none hidden md:block absolute left-0 top-1/2 w-52 -translate-x-1/2 -translate-y-1/2"
       />
       <div className="container max-w-screen-2xl">
         <div className="relative max-w-4xl mx-auto">

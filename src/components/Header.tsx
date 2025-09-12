@@ -138,7 +138,7 @@ const Header = () => {
         {/* Desktop CTA */}
         <div className="hidden xl:flex items-center space-x-3">
           <ThemeToggle />
-          <Button variant="ibuild-primary" size="sm" onClick={() => setIsDemoOpen(true)}>Book a Demo</Button>
+          <Button variant="ibuild-primary" size="sm" onClick={() => setIsDemoOpen(true)}>Book an appointment</Button>
         </div>
 
         {/* Tablet */}
@@ -151,7 +151,7 @@ const Header = () => {
           </Button>
           <ThemeToggle />
           <Button variant="ibuild-primary" size="sm" className="text-xs px-2 whitespace-nowrap" onClick={() => setIsDemoOpen(true)}>
-            Book a Demo
+            Book an appointment
           </Button>
         </div>
 

@@ -263,11 +263,11 @@ const ProjectsSection = () => {
             >
               <CarouselContent>
                 {landDevelopmentImages.map((image, idx) => (
-                  <CarouselItem key={idx} className="h-64">
+                  <CarouselItem key={idx} className="flex items-center justify-center">
                     <img
                       src={image}
                       alt="Land development project"
-                      className="w-full h-full object-cover rounded-lg"
+                      className="w-full h-auto object-contain rounded-lg"
                     />
                   </CarouselItem>
                 ))}

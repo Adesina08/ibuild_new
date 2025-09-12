@@ -11,37 +11,32 @@ const ExperienceSign = ({ className = "mx-auto mt-8 h-48 w-64" }: ExperienceSign
     role="img"
     aria-label="35+ Years Industry Experience"
   >
-    <line x1="100" y1="0" x2="100" y2="10" stroke="hsl(var(--border))" strokeWidth="2" />
-    <circle
-      cx="100"
-      cy="10"
-      r="5"
-      fill="hsl(var(--border))"
-    />
+    <line x1="100" y1="0" x2="100" y2="10" stroke="hsl(var(--muted-foreground))" strokeWidth="2" />
+    <circle cx="100" cy="10" r="5" fill="hsl(var(--muted-foreground))" />
     <line
       x1="100"
       y1="10"
-      x2="40"
+      x2="20"
       y2="40"
-      stroke="hsl(var(--border))"
+      stroke="hsl(var(--muted-foreground))"
       strokeWidth="3"
     />
     <line
       x1="100"
       y1="10"
-      x2="160"
+      x2="180"
       y2="40"
-      stroke="hsl(var(--border))"
+      stroke="hsl(var(--muted-foreground))"
       strokeWidth="3"
     />
     <rect
-      x="40"
+      x="20"
       y="40"
-      width="120"
+      width="160"
       height="90"
       rx="8"
       fill="hsl(var(--card))"
-      stroke="hsl(var(--border))"
+      stroke="hsl(var(--muted-foreground))"
       strokeWidth="2"
     />
     <text
@@ -68,7 +63,7 @@ const ExperienceSign = ({ className = "mx-auto mt-8 h-48 w-64" }: ExperienceSign
       x="100"
       y="128"
       textAnchor="middle"
-      fontSize="16"
+      fontSize="14"
       fontWeight="600"
       fill="hsl(var(--foreground))"
     >

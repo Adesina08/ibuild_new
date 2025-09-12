@@ -1,15 +1,39 @@
 import React from "react";
 
-const ExperienceSign = () => (
+interface ExperienceSignProps {
+  className?: string;
+}
+
+const ExperienceSign = ({ className = "mx-auto mt-8 h-48 w-64" }: ExperienceSignProps) => (
   <svg
     viewBox="0 0 200 150"
-    className="mx-auto mt-8 h-36 w-52"
+    className={className}
     role="img"
     aria-label="35+ Years Industry Experience"
   >
-    <line x1="100" y1="10" x2="40" y2="40" stroke="hsl(var(--border))" strokeWidth="2" />
-    <line x1="100" y1="10" x2="160" y2="40" stroke="hsl(var(--border))" strokeWidth="2" />
-    <circle cx="100" cy="10" r="4" fill="hsl(var(--border))" />
+    <line x1="100" y1="0" x2="100" y2="10" stroke="hsl(var(--border))" strokeWidth="2" />
+    <circle
+      cx="100"
+      cy="10"
+      r="5"
+      fill="hsl(var(--border))"
+    />
+    <line
+      x1="100"
+      y1="10"
+      x2="40"
+      y2="40"
+      stroke="hsl(var(--border))"
+      strokeWidth="3"
+    />
+    <line
+      x1="100"
+      y1="10"
+      x2="160"
+      y2="40"
+      stroke="hsl(var(--border))"
+      strokeWidth="3"
+    />
     <rect
       x="40"
       y="40"
@@ -22,9 +46,9 @@ const ExperienceSign = () => (
     />
     <text
       x="100"
-      y="82"
+      y="84"
       textAnchor="middle"
-      fontSize="32"
+      fontSize="36"
       fontWeight="700"
       fill="hsl(var(--ibuild-red))"
     >
@@ -32,9 +56,9 @@ const ExperienceSign = () => (
     </text>
     <text
       x="100"
-      y="106"
+      y="108"
       textAnchor="middle"
-      fontSize="14"
+      fontSize="16"
       fontWeight="600"
       fill="hsl(var(--muted-foreground))"
     >
@@ -42,9 +66,9 @@ const ExperienceSign = () => (
     </text>
     <text
       x="100"
-      y="124"
+      y="128"
       textAnchor="middle"
-      fontSize="14"
+      fontSize="16"
       fontWeight="600"
       fill="hsl(var(--foreground))"
     >

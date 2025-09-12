@@ -81,11 +81,9 @@ const FeaturesSection = () => {
               </Button>
             </div>
 
-            {/* Experience Badge */}
-            <ExperienceSign />
           </div>
 
-          {/* Right Content - Dashboard Image */}
+          {/* Right Content - Dashboard Image with Experience Badge */}
           <div className="relative">
             <Card className="overflow-hidden border-border/50 shadow-large">
               <img
@@ -94,7 +92,11 @@ const FeaturesSection = () => {
                 className="w-full h-auto"
               />
             </Card>
-            
+
+            <div className="absolute -top-20 left-1/2 -translate-x-1/2">
+              <ExperienceSign className="h-48 w-64" />
+            </div>
+
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-8 h-8 bg-ibuild-red rounded-full animate-pulse"></div>
             <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-ibuild-red/60 rounded-full animate-pulse" style={{ animationDelay: "1s" }}></div>

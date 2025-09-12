@@ -63,20 +63,20 @@ const ProjectsSection = () => {
               Single-Family Residential Builders
             </h2>
             <p className="text-muted-foreground mb-6">
-              BUILD understands and appreciates that homes are more than just
-              structures; they're heartwarming memories are made. At iBUILD, our
-              cloud software offers innovative solutions to bring your vision to
-              life.
+              <span className="text-ibuild-red">iBUILD</span> understands and appreciates that homes are more than just
+              structures; they're heartwarming memories are made. At{" "}
+              <span className="text-ibuild-red">iBUILD</span>, our cloud software offers innovative solutions to bring
+              your vision to life.
             </p>
             <h3 className="text-2xl font-bold mb-4 text-foreground">
               Project Flexibility
             </h3>
             <p className="text-muted-foreground mb-6">
-              When creating a single-family residential project, iBUILD provides
-              builders with total flexibility. You can choose from foundation
-              options and customizable parking solutions. Plus, our unique
-              Basement Development option allows you to personalize your project
-              even further.
+              When creating a single-family residential project,{" "}
+              <span className="text-ibuild-red">iBUILD</span> provides builders with total flexibility. You can choose
+              from foundation options and customizable parking solutions. Plus,
+              our unique Basement Development option allows you to personalize
+              your project even further.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-muted-foreground">
               <div>
@@ -128,16 +128,17 @@ const ProjectsSection = () => {
               Multi-Family Residential Buildings
             </h2>
             <p className="text-muted-foreground mb-6">
-              From duplexes to wood-framed apartment buildings, iBUILD excels in
-              multi-unit residential projects. Our comprehensive approach covers
-              everything from blocks and units to common areas, amenities, and
-              complex reporting. What makes iBUILD stand out?
+              From duplexes to wood-framed apartment buildings,{" "}
+              <span className="text-ibuild-red">iBUILD</span> excels in multi-unit residential projects. Our
+              comprehensive approach covers everything from blocks and units to
+              common areas, amenities, and complex reporting. What makes{" "}
+              <span className="text-ibuild-red">iBUILD</span> stand out?
             </p>
             <h3 className="text-2xl font-bold mb-4 text-foreground">
               Project Proforma Forecasting Module
             </h3>
             <p className="text-muted-foreground mb-6">
-              iBUILD stands out with a robust project proforma forecasting
+              <span className="text-ibuild-red">iBUILD</span> stands out with a robust project proforma forecasting
               module offering a Project Proforma Forecasting Module. This tool
               not only estimates construction costs and durations but also
               accelerates the progress of securing major project financing
@@ -198,20 +199,20 @@ const ProjectsSection = () => {
               Land Development
             </h2>
             <p className="text-muted-foreground mb-6">
-              Whether it's developing a tract or section of land, iBUILD
-              empowers developers to break the land into parcels or phases.
-              Specify the number of lots in designated zoning areas to create
-              vibrant communities.
+              Whether it's developing a tract or section of land,{" "}
+              <span className="text-ibuild-red">iBUILD</span> empowers developers to break the land into parcels or
+              phases. Specify the number of lots in designated zoning areas to
+              create vibrant communities.
             </p>
             <h3 className="text-2xl font-bold mb-4 text-foreground">
-              iBUILD's Comprehensive Residential Land Development Sector
+              <span className="text-ibuild-red">iBUILD</span>'s Comprehensive Residential Land Development Sector
               Components
             </h3>
             <p className="text-muted-foreground mb-6">
               This comprehensive solution tracks land inventory and sales,
-              records lot conditions, and tracks development costs. iBUILD stores
-              and retrieves extensive and in-depth information and provides a
-              solid accounting integration.
+              records lot conditions, and tracks development costs.{" "}
+              <span className="text-ibuild-red">iBUILD</span> stores and retrieves extensive and in-depth information
+              and provides a solid accounting integration.
             </p>
             <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
               <li>
@@ -253,8 +254,8 @@ const ProjectsSection = () => {
               </li>
               <li>Site Landscaping Costs: Enhance aesthetics.</li>
               <li>
-                iBUILD leaves no stone unturned, safeguarding successful project
-                outcomes.
+                <span className="text-ibuild-red">iBUILD</span> leaves no stone unturned, safeguarding successful
+                project outcomes.
               </li>
             </ul>
           </div>

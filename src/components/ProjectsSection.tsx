@@ -263,7 +263,7 @@ const ProjectsSection = () => {
             >
               <CarouselContent>
                 {landDevelopmentImages.map((image, idx) => (
-                  <CarouselItem key={idx}>
+                  <CarouselItem key={idx} className="h-64">
                     <img
                       src={image}
                       alt="Land development project"

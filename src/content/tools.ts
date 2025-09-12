@@ -7,93 +7,111 @@ export interface BusinessTool {
 
 export const businessTools: BusinessTool[] = [
   {
-    id: 'proforma-forecasting',
-    name: 'Proforma Forecasting',
-    description: 'AI-driven financial forecasting module for securing investment financing on major projects.',
-    slug: 'proforma-forecasting'
+    id: 'project-pro-forma-financial-forecasting',
+    name: 'Project Pro-Forma Financial Forecasting',
+    description: 'Generate accurate projected costs and revenue, enabling secure financing for major projects.',
+    slug: 'project-pro-forma-financial-forecasting'
   },
   {
-    id: 'portal-views',
-    name: 'Portal Views',
-    description: 'Customizable dashboard views for different user roles and project perspectives.',
-    slug: 'portal-views'
+    id: 'associate-communication-process-flow',
+    name: 'Associate Communication Process Flow',
+    description: 'Connect communication processes across your organization to improve collaboration and reduce misalignment.',
+    slug: 'associate-communication-process-flow'
   },
   {
-    id: 'crm',
-    name: 'CRM',
-    description: 'Customer relationship management tools for tracking leads and client interactions.',
-    slug: 'crm'
+    id: 'sales-customer-relations-management',
+    name: 'Sales Customer Relations Management',
+    description: 'Track leads, manage customer interactions, and boost conversions with an integrated CRM.',
+    slug: 'sales-customer-relations-management'
   },
   {
-    id: 'selections',
-    name: 'Selections',
-    description: 'Material and design selection management system for streamlined decision-making.',
-    slug: 'selections'
+    id: 'client-interior-exterior-selections-management',
+    name: 'Client Interior & Exterior Selections Management',
+    description: 'Provide clients with an intuitive interface for customizing interior & exterior finish packages for new or existing design selections.',
+    slug: 'client-interior-exterior-selections-management'
   },
   {
-    id: 'job-creation',
-    name: 'Job Creation',
-    description: 'Automated job creation and assignment tools for project management.',
-    slug: 'job-creation'
+    id: 'job-creation-management',
+    name: 'Job Creation Management',
+    description: 'Automate job creation and assignment to accelerate project kickoff.',
+    slug: 'job-creation-management'
   },
   {
-    id: 'price-book',
-    name: 'Price Book',  
-    description: 'Comprehensive pricing database for materials, labor, and assembly costs.',
-    slug: 'price-book'
+    id: 'pre-bid-management',
+    name: 'Pre-Bid Management',
+    description: 'Organize bid processes, compare proposals, and ensure compliance before project kick-off.',
+    slug: 'pre-bid-management'
   },
   {
-    id: 'ctcs',
-    name: 'CTCs',
-    description: 'Change order and contract management system.',
-    slug: 'ctcs'
+    id: 'change-orders-management',
+    name: 'Change Orders (COs) Management',
+    description: 'Streamline your change order workflows, track approvals, and maintain transparency between all parties.',
+    slug: 'change-orders-management'
   },
   {
-    id: 'cos',
-    name: 'COs',
-    description: 'Change order processing and approval workflow management.',
-    slug: 'cos'
+    id: 'post-bid-management',
+    name: 'Post-Bid Management',
+    description: 'Manage post-bid activities, negotiations, and contract adjustments effectively.',
+    slug: 'post-bid-management'
   },
   {
-    id: 'estimating-qrs',
-    name: 'Estimating QRs',
-    description: 'Quick response estimating tools for rapid project cost assessment.',
-    slug: 'estimating-qrs'
+    id: 'estimating-qrs-management',
+    name: 'Estimating Quick Responses (QRs) Management',
+    description: 'Deliver fast and accurate cost estimates to support rapid decision-making.',
+    slug: 'estimating-quick-responses-management'
   },
   {
-    id: 'construction-scheduling',
-    name: 'Construction Scheduling',
-    description: 'Advanced scheduling tools for project timeline management.',
-    slug: 'construction-scheduling'
+    id: 'construction-scheduling-tasking-management',
+    name: 'Construction Scheduling & Tasking Management',
+    description: 'Stay on top of project timelines, assign tasks efficiently, and monitor progress across all phases.',
+    slug: 'construction-scheduling-tasking-management'
   },
   {
-    id: 'warranty',
-    name: 'Warranty',
-    description: 'Warranty tracking and management system for completed projects.',
-    slug: 'warranty'
+    id: 'warranty-management',
+    name: 'Warranty Management',
+    description: 'Track warranties and service requests to ensure customer satisfaction after project completion.',
+    slug: 'warranty-management'
   },
   {
-    id: 'soa',
-    name: 'SOA',
-    description: 'Statement of account generation and financial reporting tools.',
-    slug: 'soa'
+    id: 'extended-change-orders-settings-management',
+    name: 'Extended Change Orders Settings Management',
+    description: 'Control extended change order settings to maintain consistent project adjustments.',
+    slug: 'extended-change-orders-settings-management'
   },
   {
-    id: 'widcast-notifications',
-    name: 'WidCast Notifications',
-    description: 'Real-time notification system for project updates and alerts.',
-    slug: 'widcast-notifications'
+    id: 'intranet-extranet-media-notifications-management',
+    name: 'Intranet/Extranet & Media Notifications Management',
+    description: 'Create a dedicated communication space for employees and clients with media sharing and alerts.',
+    slug: 'intranet-extranet-media-notifications-management'
   },
   {
-    id: 'todo',
+    id: 'statement-of-adjustments-management',
+    name: 'Statement of Adjustments Management',
+    description: 'Automate statements of adjustments to keep financials accurate and transparent.',
+    slug: 'statement-of-adjustments-management'
+  },
+  {
+    id: 'mcgraw-hill-data-media-notification-management',
+    name: 'McGraw-Hill Data & Media Notification Management',
+    description: 'Access industry data and media updates directly within your workflow.',
+    slug: 'mcgraw-hill-data-media-notification-management'
+  },
+  {
+    id: 'to-do',
     name: 'To-Do',
     description: 'Task management and assignment system for team coordination.',
-    slug: 'todo'
+    slug: 'to-do'
   },
   {
     id: 'discussion-feed',
     name: 'Discussion Feed',
     description: 'Team communication and collaboration platform.',
     slug: 'discussion-feed'
+  },
+  {
+    id: 'price-book-management',
+    name: 'Price Book Management',
+    description: 'Comprehensive pricing database for materials, labor, and assembly costs.',
+    slug: 'price-book-management'
   }
 ];

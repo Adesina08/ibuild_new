@@ -51,7 +51,7 @@ const Header = () => {
     { name: "Tools", href: "/tools" },
     { name: "Plans & Pricing", href: "/plans" },
     { name: "Support", href: "/support" },
-    { name: "Contact", href: "#contact" },
+    { name: "Contact", href: "/contact" },
     { name: "Log In", href: "#login" },
   ];
 
@@ -132,7 +132,7 @@ const Header = () => {
             <Link to="/support">Support</Link>
           </Button>
           <Button variant="ibuild-nav" asChild>
-            <a href="#contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </Button>
           <Button variant="ibuild-nav" asChild>
             <a href="#login">Log In</a>
@@ -151,7 +151,7 @@ const Header = () => {
             <Link to="/plans">Pricing</Link>
           </Button>
           <Button variant="ibuild-nav" className="text-xs px-1" asChild>
-            <a href="#contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </Button>
           <ThemeToggle />
           <Button variant="ibuild-primary" size="sm" className="text-xs px-2 whitespace-nowrap" onClick={() => setIsDemoOpen(true)}>
@@ -181,7 +181,11 @@ const Header = () => {
           <nav className="container max-w-screen-2xl py-4 grid gap-2">
             {navItems.map((item) => (
               <Button key={item.name} variant="ghost" className="justify-start" asChild>
-                <a href={item.href}>{item.name}</a>
+                {item.href.startsWith('/') ? (
+                  <Link to={item.href}>{item.name}</Link>
+                ) : (
+                  <a href={item.href}>{item.name}</a>
+                )}
               </Button>
             ))}
             <div className="pt-2">

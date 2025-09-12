@@ -26,16 +26,9 @@ function useAutoplay(api?: CarouselApi) {
 }
 
 const ProjectsSection = () => {
-  const residentialImages = [projectImg6, projectImg8];
-  const multiFamilyImages = [
-    projectImg1,
-    projectImg3,
-    projectImg9,
-    projectImg10,
-    projectImg11,
-    projectImg12,
-  ];
-  const landDevelopmentImages = [projectImg4, projectImg5];
+  const residentialImages = [ projectImg8, projectImg1, projectImg3, projectImg9, projectImg10, projectImg11, projectImg12,];
+  const multiFamilyImages = [projectImg6, projectImg5];
+  const landDevelopmentImages = [projectImg13, projectImg15];
 
   const [residentialApi, setResidentialApi] = useState<CarouselApi>();
   const [multiFamilyApi, setMultiFamilyApi] = useState<CarouselApi>();

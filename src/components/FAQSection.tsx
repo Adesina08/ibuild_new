@@ -33,12 +33,12 @@ const FAQSection = () => {
   return (
     <section className="py-24 bg-gray-50 dark:bg-background">
       <div className="container max-w-screen-2xl">
-        <div className="grid items-center gap-8 md:grid-cols-[auto,1fr]">
+        <div className="grid items-center gap-8 md:grid-cols-[2fr,1fr]">
           <div className="hidden md:block">
             <img
               src={faqArrow}
               alt=""
-              className="pointer-events-none select-none w-60"
+              className="pointer-events-none select-none w-full max-w-xl mx-auto"
             />
           </div>
           <div className="max-w-4xl mx-auto md:mx-0">
@@ -57,10 +57,10 @@ const FAQSection = () => {
                 <Accordion.Item
                   key={index}
                   value={`item-${index}`}
-                  className="overflow-hidden rounded-lg border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800"
+                  className="overflow-hidden rounded-lg border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800 transition-colors duration-300 data-[state=open]:bg-gray-100 dark:data-[state=open]:bg-gray-700"
                 >
                   <Accordion.Header>
-                    <Accordion.Trigger className="group flex w-full items-center justify-between px-6 py-5 text-left text-lg font-semibold text-gray-900 transition-colors hover:no-underline dark:text-gray-100">
+                    <Accordion.Trigger className="group flex w-full items-center justify-between px-6 py-5 text-left text-lg font-semibold text-gray-900 transition-colors duration-300 hover:no-underline dark:text-gray-100 data-[state=open]:text-blue-600 dark:data-[state=open]:text-blue-400">
                       {faq.question}
                       <ChevronRight className="h-5 w-5 text-gray-500 transition-transform group-data-[state=open]:rotate-90" />
                     </Accordion.Trigger>

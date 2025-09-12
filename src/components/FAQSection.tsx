@@ -30,9 +30,31 @@ const FAQSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-background">
+    <section className="relative py-24 bg-gray-50 dark:bg-background">
+      <svg
+        aria-hidden="true"
+        viewBox="0 0 100 100"
+        className="hidden md:block absolute left-0 top-1/2 w-24 h-24 -translate-x-1/2 -translate-y-1/2 text-ibuild-red"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 60C20 20 80 20 95 60"
+          stroke="currentColor"
+          strokeWidth="8"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M75 52L95 60L85 40"
+          stroke="currentColor"
+          strokeWidth="8"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
       <div className="container max-w-screen-2xl">
-        <div className="max-w-4xl mx-auto">
+        <div className="relative max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Frequently Asked Questions

@@ -34,17 +34,17 @@ export default function ProductsPage() {
             </Section>
 
             <Section title="Modules">
-              <LinkItem href="/modules#accounting-integration">Accounting Integration</LinkItem>
-              <LinkItem href="/modules#construction">Construction</LinkItem>
-              <LinkItem href="/modules#design">Design</LinkItem>
-              <LinkItem href="/modules#estimation-purchasing">Estimation/Purchasing</LinkItem>
-              <LinkItem href="/modules#file-manager">File Manager</LinkItem>
-              <LinkItem href="/modules#pricebook">Pricebook</LinkItem>
-              <LinkItem href="/modules#project-pro-forma">Project Pro-Forma</LinkItem>
-              <LinkItem href="/modules#sales">Sales</LinkItem>
-              <LinkItem href="/modules#system-reports">System Reports</LinkItem>
-              <LinkItem href="/modules#system-views">System Views</LinkItem>
-              <LinkItem href="/modules#warranty">Warranty</LinkItem>
+              <LinkItem href="/tools">Accounting Integration</LinkItem>
+              <LinkItem href="/tools">Construction</LinkItem>
+              <LinkItem href="/tools">Design</LinkItem>
+              <LinkItem href="/tools">Estimation/Purchasing</LinkItem>
+              <LinkItem href="/tools">File Manager</LinkItem>
+              <LinkItem href="/tools">Pricebook</LinkItem>
+              <LinkItem href="/tools">Project Pro-Forma</LinkItem>
+              <LinkItem href="/tools">Sales</LinkItem>
+              <LinkItem href="/tools">System Reports</LinkItem>
+              <LinkItem href="/tools">System Views</LinkItem>
+              <LinkItem href="/tools">Warranty</LinkItem>
             </Section>
           </div>
         </div>

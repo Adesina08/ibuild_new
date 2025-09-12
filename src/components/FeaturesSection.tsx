@@ -1,9 +1,14 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { TrendingUp, Settings, DollarSign, MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 import constructionDashboard from "@/assets/construction-dashboard.png";
 
 const FeaturesSection = () => {
+  const openDemo = () => {
+    window.dispatchEvent(new CustomEvent("open-demo-modal"));
+  };
+
   const features = [
     {
       icon: TrendingUp,
@@ -64,12 +69,14 @@ const FeaturesSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button variant="ibuild-primary" size="lg">
+              <Button variant="ibuild-primary" size="lg" onClick={openDemo}>
                 Book a Demo
               </Button>
-              <Button variant="ibuild-outline" size="lg">
-                <MessageCircle className="h-5 w-5 mr-2" />
-                Talk to Us
+              <Button variant="ibuild-outline" size="lg" asChild>
+                <Link to="/contact" className="flex items-center">
+                  <MessageCircle className="h-5 w-5 mr-2" />
+                  Talk to Us
+                </Link>
               </Button>
             </div>
 

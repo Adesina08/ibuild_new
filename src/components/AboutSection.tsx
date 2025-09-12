@@ -15,7 +15,7 @@ const AboutSection = () => {
                 About
               </div>
               <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
-                Learn More<span className="text-ibuild-red">About Us</span>
+                Learn More<span className="text-ibuild-red"> About Us</span>
               </h2>
             </div>
 

@@ -57,7 +57,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border/50">
-      <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
+      <div className="container flex h-16 max-w-screen-2xl items-center justify-between xl:justify-start">
         {/* Logo (clickable) */}
         <Link to="/" className="flex h-full items-center">
           <img
@@ -73,7 +73,7 @@ const Header = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden xl:flex items-center space-x-2 relative">
+        <nav className="hidden xl:flex items-center space-x-2 relative xl:ml-auto">
           {/* Products - click to open */}
           <div className="relative" ref={productsRef}>
             <Button variant="ibuild-nav" className="px-3" onClick={toggleProducts}>
@@ -140,7 +140,7 @@ const Header = () => {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden xl:flex items-center space-x-3">
+        <div className="hidden xl:flex items-center space-x-3 xl:ml-6">
           <ThemeToggle />
           <Button variant="ibuild-primary" size="sm" onClick={() => setIsDemoOpen(true)}>Book an appointment</Button>
         </div>

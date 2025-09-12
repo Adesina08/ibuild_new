@@ -62,12 +62,12 @@ const Header = () => {
           <img
             src={logoLight}
             alt="iBUILD Applications"
-            className="block h-8 w-auto sm:h-9 md:h-10 lg:h-12 dark:hidden"
+            className="block h-10 w-auto sm:h-11 md:h-12 lg:h-14 dark:hidden"
           />
           <img
             src={logoDark}
             alt="iBUILD Applications"
-            className="hidden h-8 w-auto sm:h-9 md:h-10 lg:h-12 dark:block"
+            className="hidden h-10 w-auto sm:h-11 md:h-12 lg:h-14 dark:block"
           />
         </Link>
 

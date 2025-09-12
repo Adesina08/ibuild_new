@@ -10,6 +10,7 @@ import Plans from "./pages/Plans";
 import Support from "./pages/Support";
 import ChatButton from "@/components/ChatButton";
 import Tools from "./pages/Tools";
+import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
             <Route path="/tools" element={<Tools />} />
             <Route path="/plans" element={<Plans />} />
             <Route path="/support" element={<Support />} />
+            <Route path="/contact" element={<Contact />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

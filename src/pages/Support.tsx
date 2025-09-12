@@ -1,8 +1,13 @@
+import { useState } from "react";
 import AppLayout from "@/components/layout/AppLayout";
 import { Mail, Phone, Clock } from "lucide-react";
 import supportAgent from "@/assets/support-agent.png";
+import { Button } from "@/components/ui/button";
+import { DemoModal } from "@/components/layout/DemoModal";
 
 export default function Support() {
+  const [isDemoOpen, setIsDemoOpen] = useState(false);
+
   return (
     <AppLayout>
       {/* Hero */}
@@ -40,13 +45,23 @@ export default function Support() {
             </p>
           </div>
 
-          <div className="relative">
-            <div className="absolute -right-16 -top-16 w-[380px] h-[380px] rounded-3xl rotate-12 bg-[#ffd9d4] opacity-70" />
-            <img
-              src={supportAgent}
-              alt="Support agent"
-              className="relative rounded-xl shadow-xl border border-border/50 w-full object-cover"
-            />
+          <div className="flex flex-col items-center">
+            <div className="relative">
+              <div className="absolute -right-16 -top-16 w-[380px] h-[380px] rounded-3xl rotate-12 bg-[#ffd9d4] opacity-70" />
+              <img
+                src={supportAgent}
+                alt="Support agent"
+                className="relative rounded-xl shadow-xl border border-border/50 w-full object-cover"
+              />
+            </div>
+            <Button
+              variant="ibuild-primary"
+              size="sm"
+              className="mt-6 w-full sm:w-auto"
+              onClick={() => setIsDemoOpen(true)}
+            >
+              Book an appointment
+            </Button>
           </div>
         </div>
       </section>
@@ -150,6 +165,7 @@ export default function Support() {
           </div>
         </div>
       </section>
+      <DemoModal isOpen={isDemoOpen} onClose={() => setIsDemoOpen(false)} />
     </AppLayout>
   );
 }

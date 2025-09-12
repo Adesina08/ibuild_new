@@ -1,7 +1,6 @@
 
 import AppLayout from "@/components/layout/AppLayout";
 import PricingSection from "@/components/PricingSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSection from "@/components/FAQSection";
 
 export default function Plans() {
@@ -14,7 +13,6 @@ export default function Plans() {
         </div>
       </section>
       <PricingSection />
-      <TestimonialsSection />
       <FAQSection />
     </AppLayout>
   );

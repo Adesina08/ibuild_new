@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Target, Users, Shield, Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
@@ -27,9 +28,11 @@ const AboutSection = () => {
               </p>
             </div>
 
-            <Button variant="ibuild-primary" size="lg" className="group">
-              Explore Our Services
-              <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
+            <Button asChild variant="ibuild-primary" size="lg" className="group">
+              <Link to="/projects">
+                Explore Our Services
+                <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </Button>
           </div>
 

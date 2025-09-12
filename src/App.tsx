@@ -11,6 +11,7 @@ import Support from "./pages/Support";
 import ChatButton from "@/components/ChatButton";
 import Tools from "./pages/Tools";
 import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 import ScrollToTop from "@/components/layout/ScrollToTop";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/tools" element={<Tools />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/plans" element={<Plans />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/support" element={<Support />} />

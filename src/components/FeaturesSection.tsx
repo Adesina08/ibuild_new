@@ -84,7 +84,7 @@ const FeaturesSection = () => {
             <div className="inline-flex items-center gap-3 bg-gradient-card rounded-2xl p-4 border border-border/50">
               <div className="text-center">
                 <div className="text-2xl font-bold text-ibuild-red">35+</div>
-                <div className="text-xs text-muted-foreground font-medium">yrs</div>
+                <div className="text-xs text-muted-foreground font-medium">years</div>
               </div>
               <div className="text-sm font-medium text-foreground">Industry Experience</div>
             </div>

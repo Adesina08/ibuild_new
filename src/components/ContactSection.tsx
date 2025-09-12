@@ -82,13 +82,13 @@ const ContactSection = () => {
                     <label htmlFor="firstName" className="text-sm font-medium text-foreground">
                       First Name
                     </label>
-                    <Input id="firstName" placeholder="John" />
+                    <Input id="firstName" placeholder="First" />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="lastName" className="text-sm font-medium text-foreground">
                       Last Name
                     </label>
-                    <Input id="lastName" placeholder="Doe" />
+                    <Input id="lastName" placeholder="Last Name" />
                   </div>
                 </div>
 
@@ -96,14 +96,14 @@ const ContactSection = () => {
                   <label htmlFor="email" className="text-sm font-medium text-foreground">
                     Email
                   </label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
+                  <Input id="email" type="email" placeholder="youremail@example.com" />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="company" className="text-sm font-medium text-foreground">
                     Company
                   </label>
-                  <Input id="company" placeholder="Your Construction Company" />
+                  <Input id="company" placeholder="Your Company" />
                 </div>
 
                 <div className="space-y-2">

@@ -46,7 +46,7 @@ const PricingSection = () => {
             Project Plans
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Choose the Right<span className="text-ibuild-red">Construction Support Package</span>
+            Choose the Right<span className="text-ibuild-red"> Construction Support Package</span>
           </h2>
         </div>
 

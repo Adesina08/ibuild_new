@@ -58,18 +58,18 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border/50">
-      <div className="container flex h-16 max-w-screen-2xl items-center justify-between xl:justify-start">
+      <div className="container flex h-20 max-w-screen-2xl items-center justify-between xl:justify-start">
         {/* Logo (clickable) */}
         <Link to="/" className="flex h-full items-center">
           <img
             src={logoLight}
             alt="iBUILD Applications"
-            className="block h-10 w-auto sm:h-11 md:h-12 lg:h-14 dark:hidden"
+            className="block h-16 w-auto sm:h-20 md:h-20 lg:h-20 dark:hidden"
           />
           <img
             src={logoDark}
             alt="iBUILD Applications"
-            className="hidden h-10 w-auto sm:h-11 md:h-12 lg:h-14 dark:block"
+            className="hidden h-16 w-auto sm:h-20 md:h-20 lg:h-20 dark:block"
           />
         </Link>
 

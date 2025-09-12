@@ -12,7 +12,11 @@ const Footer = () => {
           <div>
             <div className="mb-6">
               <a href="/" className="block">
-                <img src={logoDark} alt="iBUILD Applications" className="h-10 w-auto" />
+                <img
+                  src={logoDark}
+                  alt="iBUILD Applications"
+                  className="h-16 w-auto sm:h-20 md:h-24"
+                />
               </a>
             </div>
             <p className="text-sm opacity-80">Follow</p>

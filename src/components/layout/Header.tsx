@@ -29,7 +29,12 @@ export const Header = ({ onDemoClick }: HeaderProps) => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center" to="/">
-          <img src={IMAGES.logo} alt="iBUILD" height="40" className="me-2" />
+          <img
+            src={IMAGES.logo}
+            alt="iBUILD"
+            className="me-2 img-fluid"
+            style={{ maxHeight: '60px', width: 'auto' }}
+          />
           <span className="fw-bold">iBUILD</span>
         </Link>
 

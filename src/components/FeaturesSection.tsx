@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+aimport { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { TrendingUp, Settings, DollarSign, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";

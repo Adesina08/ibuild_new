@@ -94,7 +94,7 @@ const TestimonialsSection = () => {
                 <Quote className="h-12 w-12 text-ibuild-red mx-auto" />
               </div>
               
-              <p className="text-xl text-muted-foreground leading-relaxed mb-8 italic">
+              <p className="text-xl text-muted-foreground leading-relaxed mb-8 italic text-justify max-w-3xl mx-auto">
                 "{testimonials[currentSlide].quote}"
               </p>
               
@@ -115,21 +115,21 @@ const TestimonialsSection = () => {
 
           {/* Navigation Buttons */}
           <Button
-            variant="outline"
+            variant="default"
             size="icon"
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 rounded-full bg-background/80 backdrop-blur-sm"
+            className="absolute -left-12 top-1/2 -translate-y-1/2 rounded-full bg-ibuild-red text-primary-foreground hover:bg-ibuild-red/90 shadow-lg"
             onClick={prevSlide}
           >
-            <ChevronLeft className="h-4 w-4" />
+            <ChevronLeft className="h-6 w-6" />
           </Button>
-          
+
           <Button
-            variant="outline"
+            variant="default"
             size="icon"
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 rounded-full bg-background/80 backdrop-blur-sm"
+            className="absolute -right-12 top-1/2 -translate-y-1/2 rounded-full bg-ibuild-red text-primary-foreground hover:bg-ibuild-red/90 shadow-lg"
             onClick={nextSlide}
           >
-            <ChevronRight className="h-4 w-4" />
+            <ChevronRight className="h-6 w-6" />
           </Button>
 
           {/* Dots Indicator */}

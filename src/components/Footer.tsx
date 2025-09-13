@@ -51,7 +51,7 @@ const Footer = () => {
           <div>
             <h5 className="text-lg font-semibold mb-4 opacity-90">Company</h5>
             <div className="space-y-3 text-sm opacity-90">
-              <div className="flex items-center gap-3"><Phone className="w-4 h-4" /><span>(587) 555-5555</span></div>
+              <div className="flex items-center gap-3"><Phone className="w-4 h-4" /><span>1 (403) 400-5933<br /> 1 (403) 866-0948</span></div>
               <div className="flex items-center gap-3"><Mail className="w-4 h-4" /><a className="hover:text-ibuild-red" href="mailto:info@ibuildresidential.com">clientsupport@ibuildapplications.com</a></div>
               <ul className="pt-2 space-y-3">
                 <li><a href="#about" className="hover:text-ibuild-red">About</a></li>

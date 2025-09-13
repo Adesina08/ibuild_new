@@ -30,10 +30,10 @@ const ExperienceSign = ({ className = "mx-auto mt-8 h-48 w-64" }: ExperienceSign
       strokeWidth="3"
     />
     <rect
-      x="20"
+      x="15"
       y="40"
-      width="160"
-      height="90"
+      width="170"
+      height="100"
       rx="8"
       fill="hsl(var(--card))"
       stroke="hsl(var(--muted-foreground))"
@@ -61,7 +61,7 @@ const ExperienceSign = ({ className = "mx-auto mt-8 h-48 w-64" }: ExperienceSign
     </text>
     <text
       x="100"
-      y="128"
+      y="134"
       textAnchor="middle"
       fontSize="14"
       fontWeight="600"

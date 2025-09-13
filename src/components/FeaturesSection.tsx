@@ -84,7 +84,7 @@ const FeaturesSection = () => {
           </div>
 
           {/* Right Content - Dashboard Image with Experience Badge */}
-          <div className="relative">
+          <div className="relative mt-16">
             <Card className="overflow-hidden border-border/50 shadow-large">
               <img
                 src={constructionDashboard}
@@ -93,7 +93,7 @@ const FeaturesSection = () => {
               />
             </Card>
 
-            <div className="absolute -top-52 left-1/2 -translate-x-1/2">
+            <div className="absolute -top-40 left-1/2 -translate-x-1/2">
               <ExperienceSign className="h-48 w-64" />
             </div>
 

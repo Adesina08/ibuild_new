@@ -158,7 +158,7 @@ export default function Support() {
                   href="mailto:info@ibuildresidential.com"
                   className="text-sm font-medium hover:underline"
                 >
-                  info@ibuildresidential.com
+                  clientsupport@ibuildapplications.com 
                 </a>
               </div>
             </div>

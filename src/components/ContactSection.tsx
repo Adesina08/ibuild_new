@@ -32,8 +32,8 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-lg font-semibold text-foreground mb-2">Office Address</h4>
                     <p className="text-muted-foreground">
-                      123 Construction Way<br />
-                      Calgary, AB, Canada
+                      4960 13 Street SE <br />
+                      Calgary AB, T2G 5M9, Canada
                     </p>
                   </div>
                 </div>

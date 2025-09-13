@@ -104,7 +104,9 @@ export default function Support() {
                 <div className="rounded-full p-2 bg-sky-100 text-sky-600 dark:bg-sky-900/30 dark:text-sky-300">
                   <Phone className="w-4 h-4" />
                 </div>
-                <div className="text-sm font-medium">(587)-555-5555</div>
+                <div className="text-sm font-medium">
+                  1 (403) 400-5933<br /> 
+                  1 (403) 866-0948</div>
               </div>
 
               <div className="flex items-center gap-3">

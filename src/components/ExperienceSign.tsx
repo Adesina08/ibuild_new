@@ -47,7 +47,7 @@ const ExperienceSign = ({ className = "mx-auto mt-8 h-48 w-64" }: ExperienceSign
       fontWeight="700"
       fill="hsl(var(--ibuild-red))"
     >
-      35+
+      40+
     </text>
     <text
       x="100"

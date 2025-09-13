@@ -66,49 +66,6 @@ export default function Support() {
         </div>
       </section>
 
-      {/* Documentation */}
-      <section className="bg-gradient-to-b from-transparent to-rose-50/50 dark:to-[#161a22]">
-        <div className="container max-w-screen-2xl px-4 pb-10">
-          <h2 className="text-xl font-semibold mb-3">Documentation Library</h2>
-          <p className="text-sm text-muted-foreground leading-6">
-            Our Documentation Library is designed to give construction professionals everything they
-            need in one place. Whether you’re managing large projects or handling day-to-day site tasks,
-            you’ll find practical, easy-to-follow resources to guide you.
-          </p>
-
-          <p className="text-sm text-muted-foreground leading-6 mt-4">Here’s what you’ll discover:</p>
-          <ul className="mt-4 space-y-2 text-sm text-muted-foreground leading-6">
-            <li>
-              📘 Getting Started Guides – Step-by-step instructions to set up your iBUILD account,
-              onboard your team, and start managing projects in minutes.
-            </li>
-            <li>
-              🎥 Video Tutorials – Short, practical videos covering core features like creating projects,
-              assigning tasks, tracking budgets, and generating reports.
-            </li>
-            <li>
-              🏗️ Construction Best Practices – Safety checklists, quality control workflows, and
-              compliance guidelines to keep your projects on track.
-            </li>
-            <li>
-              📂 Templates &amp; Forms – Ready-made site diaries, inspection forms, progress report
-              formats, and budgeting sheets.
-            </li>
-            <li>
-              🔧 Troubleshooting Articles – Quick fixes for common issues, with clear instructions and
-              screenshots.
-            </li>
-            <li>
-              🔒 Regulations &amp; Compliance – Resources to help you align with industry standards, safety
-              codes, and reporting requirements.
-            </li>
-          </ul>
-          <p className="text-sm text-muted-foreground leading-6 mt-4">
-            Our library is constantly updated with real use cases and field-tested solutions, so you’ll
-            always have the right information at your fingertips.
-          </p>
-        </div>
-      </section>
 
       {/* Team Support: map + contact inline, aligned to the top */}
       <section>

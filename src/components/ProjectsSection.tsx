@@ -19,6 +19,7 @@ import projectImg12 from "@/assets/projects/project-12.webp";
 import projectImg13 from "@/assets/projects/project-13.webp";
 import projectImg14 from "@/assets/projects/project-14.png";
 import projectImg15 from "@/assets/projects/project-15.png";
+import { cn } from "@/lib/utils";
 
 function useAutoplay(api?: CarouselApi) {
   useEffect(() => {
@@ -264,11 +265,17 @@ const ProjectsSection = () => {
             >
               <CarouselContent>
                 {landDevelopmentImages.map((image, idx) => (
-                  <CarouselItem key={idx} className="flex items-center justify-center">
+                  <CarouselItem
+                    key={idx}
+                    className="flex items-center justify-center"
+                  >
                     <img
                       src={image}
                       alt="Land development project"
-                      className="w-full h-auto object-contain rounded-lg"
+                      className={cn(
+                        "w-full h-auto object-contain rounded-lg",
+                        idx === 1 && "max-h-96 w-auto"
+                      )}
                     />
                   </CarouselItem>
                 ))}

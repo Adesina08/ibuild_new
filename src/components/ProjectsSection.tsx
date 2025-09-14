@@ -30,13 +30,11 @@ function useAutoplay(api?: CarouselApi) {
 
 const ProjectsSection = () => {
   const singleFamilyImages = [
-    projectImg8,
-    projectImg1,
-    projectImg3,
     projectImg9,
     projectImg10,
     projectImg11,
     projectImg12,
+    projectImg13
   ];
   const multiUnitImages = [projectImg6, projectImg5];
   const landImages = [projectImg12, projectImg11];

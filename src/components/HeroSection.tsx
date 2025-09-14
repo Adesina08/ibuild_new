@@ -26,8 +26,9 @@ const HeroSection = () => {
               </h1>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>If you can't trust your financials, who can you trust?</p>
-                <p>iBUILD 2.0 streamlines operations, automates workflows, and empowers your team to thrive in today's construction landscape.</p>
-                <p>With 24/7 tools, proactive support, and real-time insights, you gain the confidence and control to build faster, smarter, and with total clarity.</p>
+                <p>Welcome to iBUILD 2.0—your all-in-one command center for construction excellence.</p>
+                <p>From digital-driven forecasting and automated procurement to real-time scheduling, vendor collaboration, and integrated accounting, iBUILD transforms complexity into clarity.</p>
+                <p>With 24/7 tools, proactive support, and precision reporting, you gain the control to build faster, smarter, and with total confidence.</p>
               </div>
             </div>
 

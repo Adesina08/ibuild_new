@@ -84,45 +84,28 @@ const ProjectsSection = () => {
             </p>
             <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
               <li>
-                <strong>Land Acquisition Costs:</strong> Strategically assess and design land
-                development plans.
+                <strong>Land Acquisition Costs:</strong> Strategically assess and manage land acquisition expenses.
               </li>
               <li>
-                <strong>Architects &amp; Consultants:</strong> Collaborate seamlessly with design
-                professionals.
+                <strong>Architects &amp; Consultants:</strong> Collaborate seamlessly with design professionals.
               </li>
               <li>
-                <strong>Engineers:</strong> Engage experienced professionals with comprehensive
-                planning.
+                <strong>Engineers:</strong> Engage expert engineers for project compliance planning.
               </li>
-              <li><strong>Permits &amp; Fees:</strong> Navigate regulatory procedures with ease.</li>
+              <li><strong>Permits &amp; Fees:</strong> Navigate regulatory requirements and associated costs.
+              </li>
               <li>
-                <strong>New Home Warranties &amp; Insurance Fees:</strong> Safeguard your project against
-                uncertainties.
+                <strong>New Home Warranties &amp; Insurance Fees:</strong> SSafeguard your project with proper coverage.
               </li>
               <li>
                 <strong>Condominium Plan Corporation Costs:</strong> Address
                 condominium-specific expenses.
               </li>
               <li>
-                Land Development Inspection Fees: Appropriately manage inspection
-                costs.
+                <strong>Marketing &amp; Sales Costs:</strong> Promote your project effectively.
               </li>
               <li>
-                Management, Legal, Financing Fees: Ensure detailed financial
-                tracking.
-              </li>
-              <li>
-                Municipal, School, and Recreational Servicing Costs: Optimize
-                infrastructure investments.
-              </li>
-              <li>
-                Site Preparation &amp; Temp Office Costs: Optimize site preparation
-                efficiency.
-              </li>
-              <li>
-                Site Development and Compliance: Record milestones and compliance
-                progress to avoid delays.
+                <strong>Management, Legal, Financing Fees:</strong>Ensure smooth operations and compliance.
               </li>
             </ul>
             <h3 className="text-2xl font-bold mt-8 mb-4 text-foreground">

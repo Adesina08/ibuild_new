@@ -80,14 +80,10 @@ const TestimonialsSection = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             What Our Clients Say About Us
           </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto space-y-4">
-                <span className="block">
-                  At iBUILD – We Develop Relationships and Business Solutions, Not Just Software.
-                </span>
-                <span className="block">
-                  At iBUILD, we don’t just deliver digital tools, we co-create solutions that strengthen partnerships, drive performance, and earn trust. Our clients value us not only for what we build, but for how we help them build faster and better.
-                </span>
-              </p>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              At iBUILD – We Develop Relationships and Business Solutions, Not Just Software.<br />
+              At iBUILD, we don’t just deliver digital tools, we co-create solutions that strengthen partnerships, drive performance, and earn trust. Our clients value us not only for what we build, but for how we help them build faster and better.
+            </p>
           
         {/* Slideshow Container */}
         <div className="relative max-w-4xl mx-auto">

@@ -28,7 +28,7 @@ export const toolSections: BusinessToolSection[] = [
         id: 'associate-communication-portal-views-management',
         name: 'Associate Communication Portal Views Management',
         description:
-          'iBUILD’s Associate Communication Portal Views gives trades, suppliers, and investors real-time access to project updates, documents, and interdependent communication portals between suppliers, trades, marketing, finance, as well as direct communication links to building, city planning, and construction services. It empowers your business by strengthening communication ties, boosting transparency, and providing critical control over your relationships across every stage of development.',
+          'iBUILD’s Third-Party Communication Portal Views gives clients, trades, suppliers, and investors real-time access to project updates, documents, and progress visuals—enhancing transparency, reducing inbound inquiries, and elevating your professional image. By streamlining communication and minimizing interruptions, it boosts departmental productivity while strengthening relationships through shared visibility and trust.',
         slug: 'associate-communication-portal-views-management'
       },
       {

@@ -67,11 +67,6 @@ const ProjectsSection = () => {
           <h3 className="text-4xl font-bold mb-6 text-foreground">
             Building Vibrant Communities, One Parcel at a Time
           </h3>
-            <p className="text-muted-foreground">
-            When it comes to Land Acquisition and Land Development, <span className="text-ibuild-red">iBUILD</span> gives developers the tools to transform tracts into thriving communities. 
-            Break down land into parcels or phases & design vibrant neighborhoods with ease.
-
-          </p>
         </div>
 
         <div
@@ -82,6 +77,11 @@ const ProjectsSection = () => {
             <h2 className="text-4xl font-bold mb-6 text-foreground">
               Land Acquisition &amp; Administration
             </h2>
+            <p className="text-muted-foreground mb-6">
+            When it comes to Land Acquisition and Land Development, <span className="text-ibuild-red">iBUILD</span> gives developers the tools to transform tracts into thriving communities. 
+            Break down land into parcels or phases & design vibrant neighborhoods with ease.
+
+          </p>
             <p className="text-muted-foreground mb-6">
               <span className="text-ibuild-red">iBUILD</span>&apos;s Land Acquisition &amp; Administration module provides an
               in-depth product for every critical area to ensure nothing is

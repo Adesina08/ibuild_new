@@ -12,9 +12,8 @@ const Tools = () => {
             iBUILD’s Innovative Construction & Business Digital Management Tools Aren’t Just Features — They’re Your Strategic Business Advantage
           </h1>
           <p className="text-center max-w-4xl mx-auto mb-12">
-            iBUILD’s tools are not mere functionalities but are core drivers of our competitive edge. By positioning them as strategic assets, it underscores how deeply digital integrated and automated systems can elevate operational efficiency, stakeholder trust, and decision-making—transforming construction management from reactive to proactive management.
-          </p>
-          {toolSections.map((section) => (
+           iBUILD’s tools are not mere functionalities but are core drivers of our competitive edge. By positioning them as strategic assets, it underscores how deeply digital integrated and automated systems can elevate operational efficiency, stakeholder trust, and decision-making—transforming construction management 
+            from reactive to proactive leadership.
             <div key={section.id} className="mb-12">
               <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8">
                 {section.title}

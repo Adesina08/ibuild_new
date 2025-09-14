@@ -36,8 +36,14 @@ const ProjectsSection = () => {
     projectImg12,
     projectImg13
   ];
-  const multiUnitImages = [projectImg6, projectImg5];
-  const landImages = [projectImg12, projectImg11];
+  const multiUnitImages = [
+    projectImg4, 
+    projectImg5,
+    projectImg6,
+    projectImg7,
+    projectImg8
+  ];
+  const landImages = [projectImg1, projectImg2, projectImg3];
 
   const [singleFamilyApi, setSingleFamilyApi] = useState<CarouselApi>();
   const [multiUnitApi, setMultiUnitApi] = useState<CarouselApi>();

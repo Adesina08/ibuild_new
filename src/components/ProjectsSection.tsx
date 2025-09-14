@@ -59,7 +59,7 @@ const ProjectsSection = () => {
               <span className="text-ibuild-red">iBUILD Residential Products</span>
             </h2>
           </div>
-          <h3 className="text-muted-foreground">
+          <h3 className="text-4xl font-bold mb-6 text-foreground">
             Building Vibrant Communities, One Parcel at a Time
           </h3>
             <p className="text-muted-foreground">

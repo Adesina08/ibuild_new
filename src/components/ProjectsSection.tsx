@@ -6,17 +6,18 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 
-import projectImg1 from "@/assets/projects/project-1.webp";
-import projectImg3 from "@/assets/projects/project-3.webp";
-import projectImg5 from "@/assets/projects/project-5.webp";
-import projectImg6 from "@/assets/projects/project-6.webp";
-import projectImg8 from "@/assets/projects/project-8.webp";
-import projectImg9 from "@/assets/projects/project-9.webp";
-import projectImg10 from "@/assets/projects/project-10.webp";
-import projectImg11 from "@/assets/projects/project-11.webp";
-import projectImg12 from "@/assets/projects/project-12.webp";
-import projectImg14 from "@/assets/projects/project-14.png";
-import projectImg15 from "@/assets/projects/project-15.png";
+import projectImg1 from "@/assets/projects/project-1.png";
+import projectImg2 from "@/assets/projects/project-2.png";
+import projectImg3 from "@/assets/projects/project-3.png";
+import projectImg5 from "@/assets/projects/project-5.png";
+import projectImg6 from "@/assets/projects/project-6.png";
+import projectImg8 from "@/assets/projects/project-8.png";
+import projectImg9 from "@/assets/projects/project-9.wpng";
+import projectImg10 from "@/assets/projects/project-10.png";
+import projectImg11 from "@/assets/projects/project-11.png";
+import projectImg12 from "@/assets/projects/project-12.png";
+import projectImg13 from "@/assets/projects/project-13.png";
+
 import { cn } from "@/lib/utils";
 
 function useAutoplay(api?: CarouselApi) {
@@ -38,7 +39,7 @@ const ProjectsSection = () => {
     projectImg12,
   ];
   const multiUnitImages = [projectImg6, projectImg5];
-  const landImages = [projectImg14, projectImg15];
+  const landImages = [projectImg12, projectImg11];
 
   const [singleFamilyApi, setSingleFamilyApi] = useState<CarouselApi>();
   const [multiUnitApi, setMultiUnitApi] = useState<CarouselApi>();

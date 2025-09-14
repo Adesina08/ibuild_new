@@ -195,9 +195,9 @@ const ProjectsSection = () => {
               inefficiencies in managing complex projects, saving time and energy,
               increasing productivity, and reducing costs.
             </p>
-            <h3 className="text-2xl font-bold mb-4 text-foreground">
+            <h5 className="text-2xl font-bold mb-4 text-foreground">
               Digital-Driven Project Proforma Forecasting Module
-            </h3>
+            </h5>
             <p className="text-muted-foreground mb-6">
               <span className="text-ibuild-red">iBUILD</span> is the only SaaS
               construction and business management software offering this

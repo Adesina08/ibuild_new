@@ -100,7 +100,7 @@ const ProjectsSection = () => {
               <li><strong>Permits &amp; Fees:</strong> Navigate regulatory requirements and associated costs.
               </li>
               <li>
-                <strong>New Home Warranties &amp; Insurance Fees:</strong> SSafeguard your project with proper coverage.
+                <strong>New Home Warranties &amp; Insurance Fees:</strong> Safeguard your project with proper coverage.
               </li>
               <li>
                 <strong>Condominium Plan Corporation Costs:</strong> Address
@@ -249,6 +249,9 @@ const ProjectsSection = () => {
             <h2 className="text-4xl font-bold mb-6 text-foreground">
               Single-Family Residential Builders
             </h2>
+            <h4 className="text-4xl font-bold mb-6 text-foreground">
+              <strong>Single-Family Residential Builders</strong>
+            </h4>
             <p className="text-muted-foreground mb-6">
               At <span className="text-ibuild-red">iBUILD</span>, we understand that
               homes are more than just structures; they are the foundation for
@@ -256,11 +259,11 @@ const ProjectsSection = () => {
               cloud software solutions empower builders to bring their client&apos;s
               visions to life, combining innovation with flexibility.
             </p>
-            <h3 className="text-2xl font-bold mb-4 text-foreground">
+            <h4 className="text-2xl font-bold mb-4 text-foreground">
               What Sets <span className="text-ibuild-red">iBUILD</span> Apart?
-            </h3>
+            </h4>
             <p className="text-muted-foreground mb-6">
-              Total Project Flexibility:{' '}
+              <strong>Total Project Flexibility:{' '}</strong>
               <span className="text-ibuild-red">iBUILD</span> gives builders complete
               freedom to customize single-family residential projects. Builders can
               choose from these client needs:

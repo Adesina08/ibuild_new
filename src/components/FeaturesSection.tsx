@@ -19,7 +19,7 @@ const FeaturesSection = () => {
     {
       icon: Settings,
       title: "End-to-End Project Management", 
-      description: "Coordinate every phase—from sales, estimating and procurement to scheduling and warranty—with one seamless platform."
+      description: "Coordinate every phase from sales, estimating and procurement to scheduling and warranty—with one seamless platform."
     },
     {
       icon: DollarSign,

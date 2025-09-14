@@ -12,7 +12,7 @@ import projectImg3 from "@/assets/projects/project-3.png";
 import projectImg5 from "@/assets/projects/project-5.png";
 import projectImg6 from "@/assets/projects/project-6.png";
 import projectImg8 from "@/assets/projects/project-8.png";
-import projectImg9 from "@/assets/projects/project-9.wpng";
+import projectImg9 from "@/assets/projects/project-9.png";
 import projectImg10 from "@/assets/projects/project-10.png";
 import projectImg11 from "@/assets/projects/project-11.png";
 import projectImg12 from "@/assets/projects/project-12.png";

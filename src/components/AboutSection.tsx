@@ -23,8 +23,8 @@ const AboutSection = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-bold text-foreground">About iBUILD</h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                We are a team of passionate professionals dedicated to the residential construction industry,
-                bringing decades of expertise to help builders simplify operations and achieve lasting success.
+                We’re a team of seasoned construction professionals and tech innovators committed to transforming residential building through smart automation and strategic insight. 
+                With decades of industry experience, we help builders simplify operations, scale efficiently, and achieve lasting success in a rapidly evolving housing landscape.
               </p>
             </div>
 

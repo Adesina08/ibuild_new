@@ -109,6 +109,10 @@
     @apply bg-background text-foreground;
   }
 
+  img {
+    @apply max-w-full h-auto;
+  }
+
   /* Grid pattern background */
   .bg-grid-pattern {
     background-image: 

@@ -81,7 +81,7 @@ export default function Support() {
                 <iframe
                   title="map"
                   className="w-full h-[260px] md:h-[300px]"
-                  src="https://www.google.com/maps?q=4960+13+St+SW,+Calgary,+AB+T2G+5M9&z=15&output=embed"
+                  src="https://www.google.com/maps?q=4960+13+St+SE,+Calgary,+AB+T2G+5M9&z=15&output=embed"
                   loading="lazy"
                 />
               </div>

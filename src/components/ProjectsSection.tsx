@@ -247,11 +247,8 @@ const ProjectsSection = () => {
         >
           <div>
             <h2 className="text-4xl font-bold mb-6 text-foreground">
-              Single-Family Residential Builders
-            </h2>
-            <h4 className="text-4xl font-bold mb-6 text-foreground">
               <strong>Single-Family Residential Builders</strong>
-            </h4>
+            </h2>
             <p className="text-muted-foreground mb-6">
               At <span className="text-ibuild-red">iBUILD</span>, we understand that
               homes are more than just structures; they are the foundation for

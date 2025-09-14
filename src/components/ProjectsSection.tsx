@@ -172,55 +172,45 @@ const ProjectsSection = () => {
               Multi-Unit Residential Buildings (MURBs)
             </h2>
             <p className="text-muted-foreground">
-              Driving success in multi-family residential projects: from duplexes,
-              townhouses to wood-framed apartment buildings,{' '}
-              <span className="text-ibuild-red">iBUILD</span> streamlines multi-unit
-              residential developments.
+                Driving Success in Multi-Family Residential Projects: From Duplexes, Townhouses to 12 story wood-framed Apartment Buildings, 
+              <span className="text-ibuild-red">iBUILD</span> is your trusted partner in delivering complex multi-unit residential developments.
             </p>
             <p className="text-muted-foreground mb-6">
               With robust tools and expert guidance,{' '}
-              <span className="text-ibuild-red">iBUILD</span> covers every phase of
-              development, from design and construction to cost projections.
+              <span className="text-ibuild-red">iBUILD</span> streamlines your entire process, ensuring efficiency and effectiveness. 
             </p>
             <p className="text-muted-foreground mb-6">
-              <span className="text-ibuild-red">iBUILD</span> eliminates
-              inefficiencies in managing complex projects, saving time and energy,
-              increasing productivity, and reducing costs.
+              <span className="text-ibuild-red">iBUILD</span> eliminates inefficiencies in managing complex projects saving time and energy, increasing productivity, and reducing costs.
             </p>
-            <h5 className="text-2xl font-bold mb-4 text-foreground">
-              Digital-Driven Project Proforma Forecasting Module
-            </h5>
+            <p className="text-2xl font-bold mb-4 text-foreground">
+              <strong>Digital-Driven Project Proforma Forecasting Module:</strong> <span className="text-ibuild-red">iBUILD</span> is the only SaaS construction and business management software provider offering this groundbreaking technology/tool.
+            </p>
             <p className="text-muted-foreground mb-6">
-              <span className="text-ibuild-red">iBUILD</span> is the only SaaS
-              construction and business management software offering this
-              groundbreaking technology for large projects.
+              <span className="text-ibuild-red">iBUILD</span> elevates professionalism and secures financing for your small to large projects faster than ever before.
             </p>
             <h3 className="text-2xl font-bold mb-4 text-foreground">
-              Total Project Flexibility
+              <strong>Total Project Flexibility:</strong> Customize every aspect of your project with
             </h3>
-            <p className="text-muted-foreground mb-6">
-              Customize every aspect of your project with:
-            </p>
             <div className="grid md:grid-cols-2 gap-6 text-muted-foreground">
               <div>
-                <h4 className="font-semibold mb-2">Foundation Options</h4>
+                <h4 className="font-semibold mb-2"><strong>Foundation Options:</strong></h4>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Basement</li>
                   <li>Slab-On-Grade</li>
                   <li>Crawl Space / Pile Columns</li>
                   <li>Heated Underground Parkade</li>
-                  <li>Grade Level Parkade</li>
+                  <li>Heated Grade-Level Parkade</li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">Parking Options</h4>
+                <h4 className="font-semibold mb-2"><strong>Parking Options:</strong></h4>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Attached Garage</li>
                   <li>
                     Detached Garage (With or Without Secondary Suite)
                   </li>
                   <li>Carport</li>
-                  <li>Level Parking Stalls / Pads</li>
+                  <li>Grade Level Parking Stalls / Pads</li>
                   <li>
                     Separate Standalone Multi-Level Concrete Parkade
                   </li>
@@ -228,9 +218,10 @@ const ProjectsSection = () => {
               </div>
             </div>
             <p className="text-muted-foreground mt-6">
-              A comprehensive approach for multi-unit success:{' '}
+              <strong>A Comprehensive Approach for Multi-Unit Success:</strong> {' '}
               <span className="text-ibuild-red">iBUILD</span> covers every detail
-              from units to common areas, common buildings, landscapes, and more.
+              from Blocks and Units to Common Areas, Common Buildings, Landscaping, and more,
+              ensuring no multi-family element or component is missed or overlooked.
             </p>
           </div>
           <div>

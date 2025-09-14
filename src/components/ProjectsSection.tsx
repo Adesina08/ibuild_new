@@ -312,8 +312,8 @@ const ProjectsSection = () => {
               specialized basement development option capabilities.
             </p>
             <p className="text-muted-foreground">
-              Streamline your workflow, elevate your results: say goodbye to
-              inefficiencies. With <span className="text-ibuild-red">iBUILD</span>, no
+              <bold>Streamline your workflow, elevate your results:</bold> say goodbye to
+              inefficiencies.<br /> With <span className="text-ibuild-red">iBUILD</span>, no
               vision needs to be delayed—track and organize single-family projects
               just a click away.
             </p>

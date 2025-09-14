@@ -9,8 +9,10 @@ import {
 import projectImg1 from "@/assets/projects/project-1.png";
 import projectImg2 from "@/assets/projects/project-2.png";
 import projectImg3 from "@/assets/projects/project-3.png";
+import projectImg4 from "@/assets/projects/project-4.png";
 import projectImg5 from "@/assets/projects/project-5.png";
 import projectImg6 from "@/assets/projects/project-6.png";
+import projectImg7 from "@/assets/projects/project-7.png";
 import projectImg8 from "@/assets/projects/project-8.png";
 import projectImg9 from "@/assets/projects/project-9.png";
 import projectImg10 from "@/assets/projects/project-10.png";
@@ -169,12 +171,12 @@ const ProjectsSection = () => {
             <h2 className="text-4xl font-bold mb-6 text-foreground">
               Multi-Unit Residential Buildings (MURBs)
             </h2>
-            <p className="text-muted-foreground mb-6">
+            <h4 className="text-muted-foreground mb-6">
               Driving success in multi-family residential projects: from duplexes,
               townhouses to wood-framed apartment buildings,{' '}
               <span className="text-ibuild-red">iBUILD</span> streamlines multi-unit
               residential developments.
-            </p>
+            </h4>
             <p className="text-muted-foreground mb-6">
               With robust tools and expert guidance,{' '}
               <span className="text-ibuild-red">iBUILD</span> covers every phase of

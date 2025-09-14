@@ -80,28 +80,28 @@ const ProjectsSection = () => {
             <p className="text-muted-foreground mb-6">
               <span className="text-ibuild-red">iBUILD</span>&apos;s Land Acquisition &amp; Administration module provides an
               in-depth product for every critical area to ensure nothing is
-              overlooked.
+              overlooked:
             </p>
             <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
               <li>
-                Land Acquisition Costs: Strategically assess and design land
+                <strong>Land Acquisition Costs:</strong> Strategically assess and design land
                 development plans.
               </li>
               <li>
-                Architects &amp; Consultants: Collaborate seamlessly with design
+                <strong>Architects &amp; Consultants:</strong> Collaborate seamlessly with design
                 professionals.
               </li>
               <li>
-                Engineers: Engage experienced professionals with comprehensive
+                <strong>Engineers:</strong> Engage experienced professionals with comprehensive
                 planning.
               </li>
-              <li>Permits &amp; Fees: Navigate regulatory procedures with ease.</li>
+              <li><strong>Permits &amp; Fees:</strong> Navigate regulatory procedures with ease.</li>
               <li>
-                Warranties &amp; Insurance Fees: Safeguard your project against
+                <strong>New Home Warranties &amp; Insurance Fees:</strong> Safeguard your project against
                 uncertainties.
               </li>
               <li>
-                Condominium Plan Corporation Costs: Address
+                <strong>Condominium Plan Corporation Costs:</strong> Address
                 condominium-specific expenses.
               </li>
               <li>
@@ -129,26 +129,23 @@ const ProjectsSection = () => {
               Land Development
             </h3>
             <p className="text-muted-foreground mb-6">
-              <span className="text-ibuild-red">iBUILD</span>&apos;s Comprehensive Residential Land Development Module includes:
+              <span className="text-ibuild-red">iBUILD</span>&apos;s Comprehensive Residential Land Development Module:
             </p>
             <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-              <li>Serving Lots</li>
               <li>
-                Municipal &amp; Recreational Servicing Costs: Optimize infrastructure
-                investments.
+                <strong>Site Land Development & Servicing Costs:</strong> Optimize infrastructure investments.
               </li>
               <li>
-                Construction &amp; Site Development Costs: Build with precision.
+                <strong>Site Preparation & Temp Office Costs:</strong> Prepare the site efficiently.
               </li>
               <li>
-                Environmental Considerations: Stay compliant and sustainable.
+                <strong>Site Landscaping Costs:</strong> Enhance aesthetics and functionality.
               </li>
-              <li>Site Landscaping Costs: Enhance curb appeal.</li>
             </ul>
-            <p className="text-muted-foreground mt-6">
+            <h4 className="text-muted-foreground mt-6">
               With <span className="text-ibuild-red">iBUILD</span>, nothing is accidentally missed, every aspect is
               meticulously managed to deliver effective infrastructure.
-            </p>
+            </h4>
           </div>
           <div>
             <Carousel

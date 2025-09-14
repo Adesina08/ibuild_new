@@ -171,12 +171,12 @@ const ProjectsSection = () => {
             <h2 className="text-4xl font-bold mb-6 text-foreground">
               Multi-Unit Residential Buildings (MURBs)
             </h2>
-            <h4 className="text-muted-foreground mb-6">
+            <p className="text-muted-foreground">
               Driving success in multi-family residential projects: from duplexes,
               townhouses to wood-framed apartment buildings,{' '}
               <span className="text-ibuild-red">iBUILD</span> streamlines multi-unit
               residential developments.
-            </h4>
+            </p>
             <p className="text-muted-foreground mb-6">
               With robust tools and expert guidance,{' '}
               <span className="text-ibuild-red">iBUILD</span> covers every phase of

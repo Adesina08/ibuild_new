@@ -146,26 +146,22 @@ const Header = () => {
         {/* Desktop CTA */}
         <div className="hidden xl:flex items-center space-x-3 xl:ml-6">
           <ThemeToggle />
-          <Button variant="ibuild-primary" size="sm" onClick={() => setIsDemoOpen(true)}>Book an appointment</Button>
-        </div>
-
-        {/* Tablet */}
-        <div className="hidden md:flex xl:hidden items-center space-x-2">
-          <Button variant="ibuild-nav" className="text-xs px-1" asChild>
-            <Link to="/plans">Pricing</Link>
-          </Button>
-          <Button variant="ibuild-nav" className="text-xs px-1" asChild>
-            <Link to="/contact">Contact</Link>
-          </Button>
-          <ThemeToggle />
-          <Button variant="ibuild-primary" size="sm" className="text-xs px-2 whitespace-nowrap" onClick={() => setIsDemoOpen(true)}>
+          <Button variant="ibuild-primary" size="sm" onClick={() => setIsDemoOpen(true)}>
             Book an appointment
           </Button>
         </div>
 
-        {/* Mobile */}
-        <div className="flex md:hidden items-center space-x-2">
+        {/* Non-desktop controls */}
+        <div className="flex xl:hidden items-center space-x-2">
           <ThemeToggle />
+          <Button
+            variant="ibuild-primary"
+            size="sm"
+            className="hidden md:inline text-xs px-2 whitespace-nowrap"
+            onClick={() => setIsDemoOpen(true)}
+          >
+            Book an appointment
+          </Button>
           <Button variant="ghost" size="icon" onClick={toggleMenu}>
             {isMenuOpen ? (
               <X className="h-5 w-5 sm:h-6 sm:w-6" />

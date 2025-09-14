@@ -14,17 +14,17 @@ const FeaturesSection = () => {
     {
       icon: TrendingUp,
       title: "Real-Time Financial Insights",
-      description: "Monitor project costs and profitability with live updates"
+      description: "Track costs, budgets, and profitability with live updates that keep you ahead of the curve."
     },
     {
       icon: Settings,
       title: "End-to-End Project Management", 
-      description: "Manage every aspect of your construction projects in one place"
+      description: "Coordinate every phase—from sales, estimating and procurement to scheduling and warranty—with one seamless platform."
     },
     {
       icon: DollarSign,
       title: "Seamless QuickBooks Integration",
-      description: "Connect with your existing accounting workflows effortlessly"
+      description: "Effortlessly sync your financials with your third-party online accounting  system to eliminate manual entry and ensure accounting accuracy."
     }
   ];
 
@@ -40,14 +40,13 @@ const FeaturesSection = () => {
                 Built for Builders
               </div>
               <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
-                Streamline Your Construction Business with iBUILD
+                Your Silent Partner in Construction Success
               </h2>
             </div>
 
             <p className="text-xl text-muted-foreground leading-relaxed">
-              iBUILD is more than software—we're your silent partner in construction success.
-              Manage land, multi-unit, and single-family projects with one integrated, cloud-based solution.
-              Gain the confidence, clarity, and control you need to compete, survive, and thrive.
+              iBUILD is more than software—it’s your integrated command center for managing land, multi-unit, and single-family projects with precision and ease. 
+              From real-time financial insights to end-to-end project oversight, we give you the clarity, control, and confidence to compete, survive, and thrive.
             </p>
 
             {/* Features */}

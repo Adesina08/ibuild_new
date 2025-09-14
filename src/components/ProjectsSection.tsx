@@ -288,7 +288,7 @@ const ProjectsSection = () => {
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-muted-foreground">
               <div>
-                <h4 className="font-semibold mb-2">Foundation Options</h4>
+                <h4 className="font-semibold mb-2"><strong>Foundation Options</strong></h4>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Basement</li>
                   <li>Slab-On-Grade</li>
@@ -296,7 +296,7 @@ const ProjectsSection = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">Parking Solutions</h4>
+                <h4 className="font-semibold mb-2"><strong>Parking Solutions</strong></h4>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Attached Garage</li>
                   <li>
@@ -308,7 +308,7 @@ const ProjectsSection = () => {
               </div>
             </div>
             <p className="text-muted-foreground mt-6 mb-6">
-              Basement Development Option: Enhance projects further with our
+              <strong>Basement Development Option:</strong> Enhance projects further with our
               specialized basement development option capabilities.
             </p>
             <p className="text-muted-foreground">

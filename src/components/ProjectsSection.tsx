@@ -55,7 +55,7 @@ const ProjectsSection = () => {
           <div className="inline-flex items-center gap-2 text-ibuild-red font-semibold">
             <div className="w-8 h-px bg-ibuild-red"></div>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              <span className="text-ibuild-red">iBUILD&apos;s Residential Products</span>
+              <span className="text-ibuild-red">iBUILD Residential Products</span>
             </h2>
           </div>
           <p className="text-muted-foreground">
@@ -72,7 +72,7 @@ const ProjectsSection = () => {
               Land Acquisition &amp; Administration
             </h2>
             <p className="text-muted-foreground mb-6">
-              iBUILD&apos;s Land Acquisition &amp; Administration module provides an
+              <span className="text-ibuild-red">iBUILD</span>&apos;s Land Acquisition &amp; Administration module provides an
               in-depth product for every critical area to ensure nothing is
               overlooked.
             </p>
@@ -123,7 +123,7 @@ const ProjectsSection = () => {
               Land Development
             </h3>
             <p className="text-muted-foreground mb-6">
-              iBUILD&apos;s Comprehensive Residential Land Development Module includes:
+              <span className="text-ibuild-red">iBUILD</span>&apos;s Comprehensive Residential Land Development Module includes:
             </p>
             <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
               <li>Serving Lots</li>
@@ -140,7 +140,7 @@ const ProjectsSection = () => {
               <li>Site Landscaping Costs: Enhance curb appeal.</li>
             </ul>
             <p className="text-muted-foreground mt-6">
-              With iBUILD, nothing is accidentally missed, every aspect is
+              With <span className="text-ibuild-red">iBUILD</span>, nothing is accidentally missed, every aspect is
               meticulously managed to deliver effective infrastructure.
             </p>
           </div>

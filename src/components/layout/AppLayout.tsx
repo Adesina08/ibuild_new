@@ -6,7 +6,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
-      <main>{children}</main>
+      <main className="px-4 text-justify">{children}</main>
       <Footer />
     </div>
   );

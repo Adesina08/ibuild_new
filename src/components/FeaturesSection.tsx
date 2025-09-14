@@ -45,7 +45,7 @@ const FeaturesSection = () => {
             </div>
 
             <p className="text-xl text-muted-foreground leading-relaxed">
-              iBUILD is more than software—it’s your integrated command center for managing land, multi-unit, and single-family projects with precision and ease. 
+              iBUILD is more than software, it’s your integrated command center for managing land, multi-unit, and single-family projects with precision and ease. 
               From real-time financial insights to end-to-end project oversight, we give you the clarity, control, and confidence to compete, survive, and thrive.
             </p>
 

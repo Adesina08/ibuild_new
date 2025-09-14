@@ -182,15 +182,15 @@ const ProjectsSection = () => {
             <p className="text-muted-foreground mb-6">
               <span className="text-ibuild-red">iBUILD</span> eliminates inefficiencies in managing complex projects saving time and energy, increasing productivity, and reducing costs.
             </p>
-            <p className="text-2xl font-bold mb-4 text-foreground">
+            <p className="text-muted-foreground mb-6">
               <strong>Digital-Driven Project Proforma Forecasting Module:</strong> <span className="text-ibuild-red">iBUILD</span> is the only SaaS construction and business management software provider offering this groundbreaking technology/tool.
             </p>
             <p className="text-muted-foreground mb-6">
               <span className="text-ibuild-red">iBUILD</span> elevates professionalism and secures financing for your small to large projects faster than ever before.
             </p>
-            <h3 className="text-2xl font-bold mb-4 text-foreground">
+            <p className="text-muted-foreground mb-6">
               <strong>Total Project Flexibility:</strong> Customize every aspect of your project with
-            </h3>
+            </p>
             <div className="grid md:grid-cols-2 gap-6 text-muted-foreground">
               <div>
                 <h4 className="font-semibold mb-2"><strong>Foundation Options:</strong></h4>

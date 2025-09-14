@@ -69,7 +69,7 @@ const ProjectsSection = () => {
         >
           <div>
             <h2 className="text-4xl font-bold mb-6 text-foreground">
-              Land Acquisition &amp; Administration – Product #1
+              Land Acquisition &amp; Administration
             </h2>
             <p className="text-muted-foreground mb-6">
               iBUILD&apos;s Land Acquisition &amp; Administration module provides an
@@ -120,7 +120,7 @@ const ProjectsSection = () => {
               </li>
             </ul>
             <h3 className="text-2xl font-bold mt-8 mb-4 text-foreground">
-              Land Development – Product #2
+              Land Development
             </h3>
             <p className="text-muted-foreground mb-6">
               iBUILD&apos;s Comprehensive Residential Land Development Module includes:
@@ -177,7 +177,7 @@ const ProjectsSection = () => {
         >
           <div>
             <h2 className="text-4xl font-bold mb-6 text-foreground">
-              Multi-Unit Residential Buildings (MURBs) – Product #3
+              Multi-Unit Residential Buildings (MURBs)
             </h2>
             <p className="text-muted-foreground mb-6">
               Driving success in multi-family residential projects: from duplexes,
@@ -268,7 +268,7 @@ const ProjectsSection = () => {
         >
           <div>
             <h2 className="text-4xl font-bold mb-6 text-foreground">
-              Single-Family Residential Builders – Product #4
+              Single-Family Residential Builders
             </h2>
             <p className="text-muted-foreground mb-6">
               At <span className="text-ibuild-red">iBUILD</span>, we understand that

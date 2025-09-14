@@ -20,7 +20,6 @@ import projectImg11 from "@/assets/projects/project-11.png";
 import projectImg12 from "@/assets/projects/project-12.png";
 import projectImg13 from "@/assets/projects/project-13.png";
 
-import { cn } from "@/lib/utils";
 
 function useAutoplay(api?: CarouselApi) {
   useEffect(() => {
@@ -151,10 +150,7 @@ const ProjectsSection = () => {
                     <img
                       src={image}
                       alt="Land project"
-                      className={cn(
-                        "w-full h-auto object-contain rounded-lg",
-                        idx === 1 && "max-h-96 w-auto"
-                      )}
+                      className="w-full h-full object-cover rounded-lg"
                     />
                   </CarouselItem>
                 ))}

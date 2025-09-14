@@ -59,8 +59,13 @@ const ProjectsSection = () => {
               <span className="text-ibuild-red">iBUILD Residential Products</span>
             </h2>
           </div>
-          <p className="text-muted-foreground">
+          <h3 className="text-muted-foreground">
             Building Vibrant Communities, One Parcel at a Time
+          </h3>
+            <p className="text-muted-foreground">
+            When it comes to Land Acquisition and Land Development, iBUILD gives developers the tools to transform tracts into thriving communities. 
+            Break down land into parcels or phases & design vibrant neighborhoods with ease.
+
           </p>
         </div>
 

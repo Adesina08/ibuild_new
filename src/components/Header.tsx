@@ -86,9 +86,9 @@ const Header = () => {
                   <div>
                     <h4 className="font-semibold mb-3">Solutions</h4>
                     <ul className="space-y-2 text-sm">
-                      <li><a onClick={() => setIsProductsOpen(false)} href="/projects#residential" className="hover:text-ibuild-red">Residential</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="/projects#multi-family" className="hover:text-ibuild-red">Multi-Family</a></li>
-                      <li><a onClick={() => setIsProductsOpen(false)} href="/projects#land-development" className="hover:text-ibuild-red">Land Development</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/projects#single-family" className="hover:text-ibuild-red">Residential</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/projects#multi-unit" className="hover:text-ibuild-red">Multi-Family</a></li>
+                      <li><a onClick={() => setIsProductsOpen(false)} href="/projects#land-acquisition" className="hover:text-ibuild-red">Land Development</a></li>
                     </ul>
                     <h4 className="font-semibold mt-6 mb-3">Communication Features</h4>
                     <ul className="space-y-2 text-sm">

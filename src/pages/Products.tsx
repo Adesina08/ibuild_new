@@ -22,9 +22,9 @@ export default function ProductsPage() {
 
           <div className="mt-8 grid gap-8 md:grid-cols-3">
             <Section title="Solutions">
-              <LinkItem href="/projects#residential">Residential</LinkItem>
-              <LinkItem href="/projects#multi-family">Multi-Family</LinkItem>
-              <LinkItem href="/projects#land-development">Land Development</LinkItem>
+              <LinkItem href="/projects#single-family">Residential</LinkItem>
+              <LinkItem href="/projects#multi-unit">Multi-Family</LinkItem>
+              <LinkItem href="/projects#land-acquisition">Land Development</LinkItem>
             </Section>
 
             <Section title="Communication Features">

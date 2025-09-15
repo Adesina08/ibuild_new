@@ -11,7 +11,7 @@ export default function Support() {
   return (
     <AppLayout>
       {/* Hero */}
-      <section className="relative overflow-hidden">
+      <section className="overflow-hidden">
         <div className="container max-w-screen-2xl px-4 py-10 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">Customer Support</h1>
@@ -46,14 +46,11 @@ export default function Support() {
           </div>
 
           <div className="flex flex-col items-center">
-            <div className="relative">
-              <div className="absolute -right-16 -top-16 w-[380px] h-[380px] rounded-3xl rotate-12 bg-[#ffd9d4] opacity-70" />
               <img
                 src={supportAgent}
                 alt="Support agent"
-                className="relative rounded-xl shadow-xl border border-border/50 w-full object-cover"
+                className="rounded-xl shadow-xl border border-border/50 w-full object-cover"
               />
-            </div>
             <Button
               variant="ibuild-primary"
               size="sm"

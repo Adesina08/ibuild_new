@@ -82,7 +82,7 @@ const TestimonialsSection = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             At iBUILD – We Develop Relationships and Business Solutions, Not Just Software.<br />
-            At iBUILD, we don’t just deliver digital tools, we co-create solutions that strengthen partnerships, drive performance, and earn trust. Our clients value us not only for what we build, but for how we help them them <span className="text-ibuild-red">reduce operating costs, build smarter, track better, and deliver faster.</span>
+              At iBUILD, we don’t just deliver digital tools, we co-create solutions that strengthen partnerships, drive performance, and earn trust. Our clients value us not only for what we build, but for how we help them them <span className="text-ibuild-red">reduce operating costs, build smarter, track better, and deliver faster.</span>
           </p>
         </div>
 

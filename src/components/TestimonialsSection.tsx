@@ -81,8 +81,8 @@ const TestimonialsSection = () => {
             What Our Clients Say About Us
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            At <span className="text-ibuild-red">iBUILD</span> – We Develop Relationships and Business Solutions, Not Just Software.<br />
-            At <span className="text-ibuild-red">iBUILD</span>, we don’t just deliver digital tools, we co-create solutions that strengthen partnerships, drive performance, and earn trust. Our clients value us not only for what we build, but for how we help them them reduce operating costs, build smarter, track better, and deliver faster.
+            At iBUILD – We Develop Relationships and Business Solutions, Not Just Software.<br />
+            At iBUILD, we don’t just deliver digital tools, we co-create solutions that strengthen partnerships, drive performance, and earn trust. Our clients value us not only for what we build, but for how we help them them <span className="text-ibuild-red">reduce operating costs, build smarter, track better, and deliver faster.</span>
           </p>
         </div>
 

@@ -44,6 +44,13 @@ export const toolSections: BusinessToolSection[] = [
         description:
           'iBUILD’s Client Interior & Exterior Selections Management tool empowers homeowners to personalize every detail of their space—from paint colors to fixtures—ensuring their vision becomes reality. Whether managing interior selections for multi-family units or full customization for single-family homes, this module streamlines the process for a smooth, client-centered construction experience.',
         slug: 'client-interior-exterior-selections-management'
+      },
+        {
+        id: 'public-private-communication-feed',
+        name: 'Public/Private Communication Feed',
+        description:
+          'iBUILD’s Communication Feed tool empowers builders to manage internal and external conversations with precision and flexibility. Whether through email, text, or integrated chat, builders can engage privately with clients, vendors, or staff on task-specific issues or broader company matters. For collaborative discussions, the public feed allows transparent dialogue across all stakeholders—clients, vendors, and team members—on a transaction or task basis. With built-in access controls, builders decide when and how external parties are invited into the conversation, ensuring the right people are looped in at the right time.',
+        slug: 'public-private-communication-feed'
       }
     ]
   },
